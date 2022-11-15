@@ -1,0 +1,79 @@
+<?php
+
+use yii\helpers\Html;
+use yii\widgets\DetailView;
+use yii\grid\GridView;
+
+
+/* @var $this yii\web\View */
+/* @var $model app\models\Indicadores */
+
+$this->title = $model->idindicadores;
+?>
+    <style>
+    .navbar-default .btn-link {
+    color: #FFFFFF;
+    }
+    .navbar-default .navbar-brand {
+    color: #FFFFFF;
+    }
+    .navbar-default .navbar-nav > li > a {
+        color: #FFFFFF;
+        }
+    </style>
+    <style>
+    .btn-success {
+    color: #fff;
+    background-color: #044887;
+    border-color: #044887;
+    }
+    </style>
+<style>
+.caja{
+border-radius: 7px;
+}
+</style>
+<style>
+.wrap > .container {
+     padding: 0px 0px 0px; 
+}
+</style>
+<div class="caja" style="background-color:#FFFFFF; color: write; height:170%; padding:1% 2%; width:100%; margin:0% 0% 2%">
+<body style="background-color:#727A72; margin:0px;">
+<div class="indicadores-view">
+<img src="https://www.itsva.edu.mx/archivos/imagenes/cabecera2019-veda.png"alt="W3Schools.com" style="width:40%;height:60px;float:right;">
+<br>
+<br>
+<h1 style="font-family:Impact; text-align:center">Ficha Técnica</h1>
+    <?= DetailView::widget([
+        'model' => $model,
+        'attributes' => [
+            //'idindicadores',
+            'nombre',
+            'objetivo',
+            'nivelObjetivo',
+            'unidadMedida',
+            'meta',
+            'variableB',
+            'medioVerificacionB',
+            'variableC',
+            'medioVerificacionC',
+            //'estatus',
+            //'periodicidad_idperiodicidad',
+        ],
+    ]) ?>
+
+    <p>
+    <p>
+        <a class="btn btn-success" href="/cursoyii2/backend/web/index.php?r=valoresb%2Fcreate&indicadores_idindicadores=<?php echo $model->idindicadores?>">Insertar Valores B</a></p>
+    </p>
+    <p>
+        <p>
+        <a class="btn btn-success" href="/cursoyii2/backend/web/index.php?r=valoresc%2Fcreate&indicadores_idindicadores=<?php echo $model->idindicadores?>">Insertar Valores C</a> </p>
+    </p>    
+    <p>
+        <?= Html::a('Insertar Medio de Verificación', ['periodicidad/index'], ['class' => 'btn btn-success']) ?>
+    </p>
+</div>
+</body>
+</div>
