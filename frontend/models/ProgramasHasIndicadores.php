@@ -43,7 +43,7 @@ class ProgramasHasIndicadores extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'programas_idprogramas' => 'Programas Nombre',
+            'programas_idprogramas' => 'Nombre del Programa',
             'indicadores_idindicadores' => 'Indicador',
             
         ];

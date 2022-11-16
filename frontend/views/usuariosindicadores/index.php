@@ -53,7 +53,7 @@ border-radius: 5px;
             //'idusuarioindicador',
             'idindicadores',
             [
-                'attribute' => 'Nivel Objetivo',
+                'attribute' => 'idindicadores',
                 'value' => function($searchModel) {
                 if (!$searchModel->idindicadores) {
                 $id = 0;
@@ -64,7 +64,7 @@ border-radius: 5px;
                 }
                ],
             [
-                'attribute' => 'Usuario',
+                'attribute' => 'idusuario',
                 'value' => function($searchModel) {
                 if (!$searchModel->idusuario) {
                 $id = 0;
@@ -75,7 +75,7 @@ border-radius: 5px;
                 }
                ],
                [
-                'attribute' => 'Departamento',
+                'attribute' => 'idroles',
                 'value' => function($searchModel) {
                 if (!$searchModel->idroles) {
                 $id = 0;

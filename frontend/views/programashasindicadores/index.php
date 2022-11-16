@@ -57,7 +57,7 @@ border-radius: 5px;
             'indicadores_idindicadores',
             [
                 
-                'attribute' => 'Nombre del Programa',
+                'attribute' => 'programas_idprogramas',
                 'value' => function($searchModel) {
                 if (!$searchModel->programas_idprogramas) {
                 $id = 0;
@@ -69,7 +69,7 @@ border-radius: 5px;
                ],
 
                [
-                'label' => 'Nivel Objetivo',
+                'label' => 'indicadores_idindicadores',
                 'value' => function($searchModel) {
                 if (!$searchModel->indicadores_idindicadores) {
                 $id = 0;
