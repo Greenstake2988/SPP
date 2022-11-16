@@ -65,11 +65,11 @@ border-radius: 7px;
 
     <p>
     <p>
-        <a class="btn btn-success" href="/cursoyii2/backend/web/index.php?r=valoresb%2Fcreate&indicadores_idindicadores=<?php echo $model->idindicadores?>">Insertar Valores B</a></p>
+        <a class="btn btn-success" href="http://spp.valladolid.tecnm.mx/index.php?r=valoresb%2Fcreate&indicadores_idindicadores=<?php echo $model->idindicadores?>">Insertar Valores B</a></p>
     </p>
     <p>
         <p>
-        <a class="btn btn-success" href="/cursoyii2/backend/web/index.php?r=valoresc%2Fcreate&indicadores_idindicadores=<?php echo $model->idindicadores?>">Insertar Valores C</a> </p>
+        <a class="btn btn-success" href="http://spp.valladolid.tecnm.mx/index.php?r=valoresc%2Fcreate&indicadores_idindicadores=<?php echo $model->idindicadores?>">Insertar Valores C</a> </p>
     </p>    
     <p>
         <?= Html::a('Insertar Medio de Verificación', ['periodicidad/index'], ['class' => 'btn btn-success']) ?>
