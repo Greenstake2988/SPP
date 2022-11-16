@@ -10,7 +10,7 @@ use app\models\Programashasindicadores;
 /**
  * ProgramashasindicadoresSearch represents the model behind the search form about `app\models\Programashasindicadores`.
  */
-class ProgramashasindicadoresSearch extends Programashasindicadores
+class ProgramashasindicadoresSearch extends ProgramasHasindicadores
 {
     /**
      * @inheritdoc
