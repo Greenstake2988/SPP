@@ -40,6 +40,8 @@ border-radius: 7px;
         'model' => $model,
         'attributes' => [
             //'idvaloresb',
+            ['label'=>'Nombre del Indicador',
+            'value'=>$model->getIndicadoresid($model->indicadores_idindicadores)],
             'Total',
             'hombres',
             'mujeres',
