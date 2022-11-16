@@ -94,4 +94,8 @@ class Valoresc extends \yii\db\ActiveRecord
     {
         return $this->hasOne(Indicadores::className(), ['idindicadores' => 'indicadores_idindicadores']);
     }
+        public function getIndicadoresid($id)
+    {
+     $usuarios =  Indicadores::findOne($id);
+     return $usuarios->nombre; }
 }
