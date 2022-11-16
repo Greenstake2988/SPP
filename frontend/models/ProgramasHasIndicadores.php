@@ -14,7 +14,7 @@ use yii\helpers\ArrayHelper;
  * @property Indicadores $indicadoresIdindicadores
  * @property Programas $programasIdprogramas
  */
-class Programashasindicadores extends \yii\db\ActiveRecord
+class ProgramasHasindicadores extends \yii\db\ActiveRecord
 {
     /**
      * @inheritdoc
