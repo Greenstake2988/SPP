@@ -72,7 +72,7 @@ boton de ruta
     </table>
       <p>
         <p>
-        <a class="btn btn-success" href="/cursoyii2/backend/web/index.php?r=indicadores%2Findex&idprogramas=<?php echo $model->idprogramas?>">Indicadores</a> </p>
+        <a class="btn btn-success" href="http://spp.valladolid.tecnm.mx/index.php?r=indicadores%2Findex&idprogramas=<?php echo $model->idprogramas?>">Indicadores</a> </p>
     </p>
     <div style= text-align:center><img src="https://www.elpuntosobrelai.com/wp-content/uploads/2020/09/118712829_1326500534222759_752711848830107400_o.jpg"  style="width:25%;height:40%; float: center;"></div>
 </div>
