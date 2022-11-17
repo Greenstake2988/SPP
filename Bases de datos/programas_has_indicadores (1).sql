@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 23-09-2022 a las 17:50:54
+-- Tiempo de generación: 17-11-2022 a las 17:59:50
 -- Versión del servidor: 10.4.24-MariaDB
 -- Versión de PHP: 8.1.6
 
@@ -20,6 +20,17 @@ SET time_zone = "+00:00";
 --
 -- Base de datos: `sistema`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `programas_has_indicadores`
+--
+
+CREATE TABLE `programas_has_indicadores` (
+  `programas_idprogramas` int(11) NOT NULL,
+  `indicadores_idindicadores` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
 -- Volcado de datos para la tabla `programas_has_indicadores`
@@ -91,7 +102,41 @@ INSERT INTO `programas_has_indicadores` (`programas_idprogramas`, `indicadores_i
 (2, 72),
 (2, 73),
 (2, 74),
-(2, 75);
+(2, 75),
+(2, 76),
+(2, 77),
+(2, 78),
+(2, 79),
+(2, 80),
+(2, 81),
+(2, 82),
+(2, 83),
+(2, 84),
+(2, 85),
+(2, 86);
+
+--
+-- Índices para tablas volcadas
+--
+
+--
+-- Indices de la tabla `programas_has_indicadores`
+--
+ALTER TABLE `programas_has_indicadores`
+  ADD PRIMARY KEY (`programas_idprogramas`,`indicadores_idindicadores`),
+  ADD KEY `fk_programas_has_indicadores_indicadores1_idx` (`indicadores_idindicadores`),
+  ADD KEY `fk_programas_has_indicadores_programas1_idx` (`programas_idprogramas`);
+
+--
+-- Restricciones para tablas volcadas
+--
+
+--
+-- Filtros para la tabla `programas_has_indicadores`
+--
+ALTER TABLE `programas_has_indicadores`
+  ADD CONSTRAINT `fk_programas_has_indicadores_indicadores1` FOREIGN KEY (`indicadores_idindicadores`) REFERENCES `indicadores` (`idindicadores`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  ADD CONSTRAINT `fk_programas_has_indicadores_programas1` FOREIGN KEY (`programas_idprogramas`) REFERENCES `programas` (`idprogramas`) ON DELETE NO ACTION ON UPDATE NO ACTION;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

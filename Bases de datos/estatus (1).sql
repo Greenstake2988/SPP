@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 23-09-2022 a las 17:49:17
+-- Tiempo de generación: 17-11-2022 a las 17:58:40
 -- Versión del servidor: 10.4.24-MariaDB
 -- Versión de PHP: 8.1.6
 
@@ -21,6 +21,17 @@ SET time_zone = "+00:00";
 -- Base de datos: `sistema`
 --
 
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `estatus`
+--
+
+CREATE TABLE `estatus` (
+  `idestatus` int(11) NOT NULL,
+  `tipoEstatus` varchar(45) COLLATE utf8_unicode_ci DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
 --
 -- Volcado de datos para la tabla `estatus`
 --
@@ -28,6 +39,26 @@ SET time_zone = "+00:00";
 INSERT INTO `estatus` (`idestatus`, `tipoEstatus`) VALUES
 (1, 'Proceso'),
 (2, 'Finalizado');
+
+--
+-- Índices para tablas volcadas
+--
+
+--
+-- Indices de la tabla `estatus`
+--
+ALTER TABLE `estatus`
+  ADD PRIMARY KEY (`idestatus`);
+
+--
+-- AUTO_INCREMENT de las tablas volcadas
+--
+
+--
+-- AUTO_INCREMENT de la tabla `estatus`
+--
+ALTER TABLE `estatus`
+  MODIFY `idestatus` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

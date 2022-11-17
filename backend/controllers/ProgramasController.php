@@ -26,6 +26,17 @@ class ProgramasController extends Controller
                     'delete' => ['POST'],
                 ],
             ],
+            'access'=>[
+            'class'=>\yii\filters\AccessControl::className(),
+            'only'=>['index','view','create','update','delete'],
+            'rules'=>[
+                [
+                    'actions'=>['index','view','create','update','delete'],
+                    'allow'=>true,
+                    'roles'=>['@'],
+                ]
+            ]
+            ]
         ];
     }
 

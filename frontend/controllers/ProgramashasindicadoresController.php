@@ -1,4 +1,5 @@
 <?php
+
 namespace frontend\controllers;
 
 use Yii;
@@ -25,6 +26,17 @@ class ProgramashasindicadoresController extends Controller
                     'delete' => ['POST'],
                 ],
             ],
+            'access'=>[
+            'class'=>\yii\filters\AccessControl::className(),
+            'only'=>['index','view'],
+            'rules'=>[
+                [
+                    'actions'=>['index','view'],
+                    'allow'=>true,
+                    'roles'=>['@'],
+                ]
+            ]
+            ]
         ];
     }
 
@@ -86,7 +98,7 @@ class ProgramashasindicadoresController extends Controller
         $model = $this->findModel($programas_idprogramas, $indicadores_idindicadores);
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            return $this->redirect(['view', 'programas_idprogramas' => $model->programas_idprogramas, 'indicadores_idindicadores' => $model->indicadores_idindicadores]);
+            return $this->redirect(['index', 'programas_idprogramas' => $model->programas_idprogramas, 'indicadores_idindicadores' => $model->indicadores_idindicadores]);
         } else {
             return $this->render('update', [
                 'model' => $model,
