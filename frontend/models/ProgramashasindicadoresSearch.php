@@ -5,12 +5,13 @@ namespace app\models;
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use app\models\ProgramasHasindicadores;
+use app\models\ProgramasHasIndicadores;
+use app\models\Programas;
 
 /**
  * ProgramashasindicadoresSearch represents the model behind the search form about `app\models\Programashasindicadores`.
  */
-class ProgramasHasindicadoresSearch extends ProgramasHasindicadores
+class ProgramashasindicadoresSearch extends ProgramasHasIndicadores
 {
     /**
      * @inheritdoc

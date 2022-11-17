@@ -10,6 +10,7 @@ use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 
 
+
 /**
  * UsuariosindicadoresController implements the CRUD actions for Usuariosindicadores model.
  */
