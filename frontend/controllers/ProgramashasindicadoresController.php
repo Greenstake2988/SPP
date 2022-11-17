@@ -3,7 +3,7 @@
 namespace frontend\controllers;
 
 use Yii;
-use app\models\Programashasindicadores;
+use app\models\ProgramasHasIndicadores;
 use app\models\ProgramashasindicadoresSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
