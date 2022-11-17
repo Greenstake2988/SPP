@@ -5,12 +5,12 @@ namespace app\models;
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use app\models\ProgramasHasindicadores;
+use app\models\Programashasindicadores;
 
 /**
  * ProgramashasindicadoresSearch represents the model behind the search form about `app\models\Programashasindicadores`.
  */
-class ProgramasHasindicadoresSearch extends ProgramasHasindicadores
+class ProgramashasindicadoresSearch extends Programashasindicadores
 {
     /**
      * @inheritdoc
@@ -21,8 +21,6 @@ class ProgramasHasindicadoresSearch extends ProgramasHasindicadores
             [['programas_idprogramas', 'indicadores_idindicadores'], 'integer'],
         ];
     }
-    public $programaName;
-    public $indicadorName;
 
     /**
      * @inheritdoc
@@ -43,13 +41,12 @@ class ProgramasHasindicadoresSearch extends ProgramasHasindicadores
     public function search($params)
     {
         $query = Programashasindicadores::find();
-      
+
         // add conditions that should always apply here
 
         $dataProvider = new ActiveDataProvider([
             'query' => $query,
         ]);
-  
 
         $this->load($params);
 
@@ -59,8 +56,6 @@ class ProgramasHasindicadoresSearch extends ProgramasHasindicadores
             return $dataProvider;
         }
 
-       
-
         // grid filtering conditions
         $query->andFilterWhere([
             'programas_idprogramas' => $this->programas_idprogramas,
@@ -69,6 +64,4 @@ class ProgramasHasindicadoresSearch extends ProgramasHasindicadores
 
         return $dataProvider;
     }
-
-
 }
