@@ -3,7 +3,7 @@
 // Cómo subir el archivo
 $fichero = $_FILES["file"]; 
 // Cargando el fichero en la carpeta "subidas"
-move_uploaded_file($fichero["tmp_name"], "../../admin.spp.valladolid.tecnm.mx/subidas/".$fichero["name"]);
+move_uploaded_file($fichero["tmp_name"], "admin.spp.valladolid.tecnm.mx/subidas".$fichero["name"]);
 
 // Redirigiendo hacia atrás
        header('Refresh:0; url=http://spp.valladolid.tecnm.mx/index.php?r=periodicidad%2Findex');
