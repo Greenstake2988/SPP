@@ -9,7 +9,7 @@ $params = array_merge(
 return [
     'id' => 'app-frontend',
     'language' => 'es',
-    'name' => 'Sistema Programa Presupuestal',
+    'name' => 'Sistema Programa Presupuestal Administrador',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
     'controllerNamespace' => 'frontend\controllers',
