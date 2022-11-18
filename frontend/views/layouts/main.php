@@ -52,13 +52,13 @@ AppAsset::register($this);
     if (Yii::$app->user->isGuest) {
 
     } else{
-        $menuItems[] = ['label' => 'Inicio', 'url' => ['site/index']];
-        $menuItems[] = ['label' => 'Resultados', 'url' => ['indicadores/index']];
-        $menuItems[] = ['label' => 'Departamentos', 'url' => ['estatus/index']];
-        $menuItems[] = ['label' => 'Medio', 'url' => ['status/index']];
-        $menuItems[] = ['label' => 'Roles', 'url' => ['roles/index']];
-        $menuItems[] = ['label' => 'Usuarios', 'url' => ['usuariosindicadores/index']];
-        $menuItems[] = ['label' => 'Programas', 'url' => ['programashasindicadores/index']];
+       // $menuItems[] = ['label' => 'Inicio', 'url' => ['site/index']];
+       // $menuItems[] = ['label' => 'Resultados', 'url' => ['indicadores/index']];
+        //$menuItems[] = ['label' => 'Departamentos', 'url' => ['estatus/index']];
+        //$menuItems[] = ['label' => 'Medio', 'url' => ['status/index']];
+        //$menuItems[] = ['label' => 'Roles', 'url' => ['roles/index']];
+        //$menuItems[] = ['label' => 'Usuarios', 'url' => ['usuariosindicadores/index']];
+        //$menuItems[] = ['label' => 'Programas', 'url' => ['programashasindicadores/index']];
       
         $menuItems[] = '<li>'
             . Html::beginForm(['/site/logout'], 'post')
@@ -69,7 +69,10 @@ AppAsset::register($this);
             . Html::endForm()
             . '</li>';   
             }
-    
+            echo Nav::widget([
+                'options' => ['class' => 'navbar-nav navbar-right'],
+                   'items' => $menuItems,
+               ]);
             echo Nav::widget([
                 'options' => ['class' => 'navbar-nav navbar-right'],
                    'items' => [['label' => 'Crear', 'items' => [['label' => 'Roles', 'url' => ['roles/index']],
