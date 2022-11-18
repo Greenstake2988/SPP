@@ -33,9 +33,10 @@ border-radius: 10px 10px 0px 0px;
 <div  style="text-align:center;width: 50%; margin:0 auto;">
     <div class="caja" style="background-color:#FFFFFF; color: write; height:500px; margin:0% 0% 2%">
     <strong><div class="card-header" style="background-color: #BC955C; color: #FFFFFF; height:50px; text-align:center">
-        <h3 class="mb-0 fw-bold text-center py-1">INICIAR SESIÓN</h3></div></strong>
+        <h3 style="text-align:center; padding:2%" class="mb-0 fw-bold text-center py-1">INICIAR SESIÓN</h3></div></strong>
         <br>
         <img src="https://sgi.valladolid.tecnm.mx/Imagenes/Escudo_ITSVA_registrado_copia.png"alt="W3Schools.com" style="width:142px;height:142px;">
+        <img src="ICONOPROGRAMA.png"alt="W3Schools.com" style="width:190px;height:160px;">
         <div class="row" style="text-align:center; width: 50%; margin:0 auto;">
         <div class="col-lg-5" style="text-align:center; width: 100%; margin:0 auto;">
             <?php $form = ActiveForm::begin(['id' => 'login-form']); ?>

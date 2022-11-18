@@ -71,9 +71,23 @@ AppAsset::register($this);
             }
     
             echo Nav::widget([
+                'options' => ['class' => 'navbar-nav navbar-right'],
+                   'items' => [['label' => 'Crear', 'items' => [['label' => 'Roles', 'url' => ['roles/index']],
+                   ['label' => 'Usuarios', 'url' => ['usuariosindicadores/index']],
+                   ['label' => 'Programas', 'url' => ['programashasindicadores/index']],
+                   ]],
+                   ]
+               ]);
+            echo Nav::widget([
             'options' => ['class' => 'navbar-nav navbar-right'],
-               'items' => $menuItems,
+               'items' => [['label' => 'Ver', 'items' => [['label' => 'Inicio', 'url' => ['site/index']],
+               ['label' => 'Resultados', 'url' => ['indicadores/index']],
+               ['label' => 'Departamentos', 'url' => ['estatus/index']],
+               ['label' => 'Medio', 'url' => ['status/index']],
+               ]],
+               ]
            ]);
+
            NavBar::end();
     ?>
     
