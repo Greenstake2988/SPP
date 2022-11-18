@@ -2,7 +2,7 @@
 
 // Cómo subir el archivo
 $fichero = $_FILES["file"]; 
-$url="admin.spp.valladolid.tecnm.mx/subidas";
+$url="http://admin.spp.valladolid.tecnm.mx/subidas";
 // Cargando el fichero en la carpeta "subidas"
 move_uploaded_file($fichero["tmp_name"], $url/$fichero["name"]);
 
