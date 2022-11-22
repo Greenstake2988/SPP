@@ -2,12 +2,11 @@
 
 // Cómo subir el archivo
 $fichero = $_FILES["file"]; 
-$url="http://admin.spp.valladolid.tecnm.mx/subidas";
 // Cargando el fichero en la carpeta "subidas"
-move_uploaded_file($fichero["tmp_name"], $url/$fichero["name"]);
+move_uploaded_file($fichero["tmp_name"], "../../frontend/web/subidas/".$fichero["name"]);
 
 // Redirigiendo hacia atrás
-       header('Refresh:0; url=http://spp.valladolid.tecnm.mx/index.php?r=periodicidad%2Findex');
+       header('Refresh:0; url=http://localhost/cursoyii2/backend/web/index.php?r=periodicidad%2Findex');
         echo '<script>alert("¡El archivo se ha enviado satisfactoriamente!")</script>';
        
 
@@ -15,4 +14,5 @@ move_uploaded_file($fichero["tmp_name"], $url/$fichero["name"]);
    
     
 ?>
+
 
