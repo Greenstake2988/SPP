@@ -6,7 +6,7 @@ $fichero = $_FILES["file"];
 move_uploaded_file($fichero["tmp_name"], "../../frontend/web/subidas/".$fichero["name"]);
 
 // Redirigiendo hacia atrás
-       header('Refresh:0; url=http://localhost/cursoyii2/backend/web/index.php?r=periodicidad%2Findex');
+       header('Refresh:0; url=http://spp.valladolid.tecnm.mx/index.php?r=periodicidad%2Findex');
         echo '<script>alert("¡El archivo se ha enviado satisfactoriamente!")</script>';
        
 
