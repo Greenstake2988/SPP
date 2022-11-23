@@ -50,7 +50,7 @@ border-radius: 10px 10px 0px 0px;
 
 <div class="form-group field-loginform-password required">
 <label class="control-label" for="loginform-password">Contraseña</label>
-<input type="password" id="loginform-password" class="form-control" name="LoginForm[password]" aria-required="true">
+<input type="password" id="contrasena" class="form-control" name="LoginForm[password]" aria-required="true">
 <div class="col">
         <label for="password"></label>
         <!-- checkbox que nos permite activar o desactivar la opcion -->
