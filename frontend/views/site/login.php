@@ -51,7 +51,28 @@ border-radius: 10px 10px 0px 0px;
 <div class="form-group field-loginform-password required">
 <label class="control-label" for="loginform-password">Contraseña</label>
 <input type="password" id="loginform-password" class="form-control" name="LoginForm[password]" aria-required="true">
-
+<div class="col">
+        <label for="password"></label>
+        <!-- checkbox que nos permite activar o desactivar la opcion -->
+        <div >
+          <input style="margin-left:20px;" type="checkbox" id="mostrar_contrasena" onclick="mostrarContrasena()"/>
+          &nbsp;&nbsp;Mostrar Contraseña</div>
+      </div>
+</div>
+    <script src="js/jquery-3.2.1.min.js" type="text/javascript"></script>
+    <script>
+      
+function mostrarContrasena() {
+    
+  $('#mostrar_contrasena').click(function () {
+    if ($('#mostrar_contrasena').is(':checked')) {
+      $('#contrasena').attr('type', 'text');
+    } else {
+      $('#contrasena').attr('type', 'password');
+    }
+  });
+};
+</script>
 <p class="help-block help-block-error"></p>
 
 <label for="loginform-rememberme">
