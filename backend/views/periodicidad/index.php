@@ -1,3 +1,6 @@
+<?php
+use yii\helpers\Html;
+?>
 <!doctype html>
 <html>
 <head>

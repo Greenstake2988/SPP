@@ -23,6 +23,8 @@ $this->title = $model->idindicadores;
     </style>
     <style>
     .btn-success {
+    float:left;
+    margin: 2px; ;
     color: #fff;
     background-color: #044887;
     border-color: #044887;
@@ -38,7 +40,7 @@ border-radius: 7px;
      padding: 0px 0px 0px; 
 }
 </style>
-<div class="caja" style="background-color:#FFFFFF; color: write; height:170%; padding:1% 2%; width:100%; margin:0% 0% 2%">
+<div class="caja" style="background-color:#FFFFFF; color: write; height:100%; padding:1% 2%; width:100%; margin:0% 0% 2%">
 <body style="background-color:#727A72; margin:0px;">
 <div class="indicadores-view">
 <img src="https://www.itsva.edu.mx/archivos/imagenes/cabecera2019-veda.png"alt="W3Schools.com" style="width:40%;height:60px;float:right;">
@@ -73,6 +75,8 @@ border-radius: 7px;
     <p>
         <?= Html::a('Consultar Valores C', ['valoresc/index'], ['class' => 'btn btn-success']) ?>
     </p>
+    <br>
+    <br>
 </div>
 </body>
 </div>
