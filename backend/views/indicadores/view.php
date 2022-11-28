@@ -65,14 +65,13 @@ border-radius: 7px;
 
     <p>
     <p>
-        <a class="btn btn-success" href="http://spp.valladolid.tecnm.mx/index.php?r=valoresb%2Fcreate&indicadores_idindicadores=<?php echo $model->idindicadores?>">Insertar Valores B</a></p>
+        <a class="btn btn-success" href="http://spp.valladolid.tecnm.mx/index.php?r=valoresb%2Fcreate&indicadores_idindicadores=<?php echo $model->idindicadores?>">Comenzar Evluación</a></p>
     </p>
     <p>
-        <p>
-        <a class="btn btn-success" href="http://spp.valladolid.tecnm.mx/index.php?r=valoresc%2Fcreate&indicadores_idindicadores=<?php echo $model->idindicadores?>">Insertar Valores C</a> </p>
-    </p>    
+        <?= Html::a('Consultar Valores B', ['valoresb/index'], ['class' => 'btn btn-success']) ?>
+    </p>   
     <p>
-        <?= Html::a('Insertar Medio de Verificación', ['periodicidad/index'], ['class' => 'btn btn-success']) ?>
+        <?= Html::a('Consultar Valores C', ['valoresc/index'], ['class' => 'btn btn-success']) ?>
     </p>
 </div>
 </body>

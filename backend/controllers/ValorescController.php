@@ -96,7 +96,7 @@ class ValorescController extends Controller
             foreach ($prts as $valoresc) {
                 $valoresc->save(false);
             }
-            return $this->redirect(['index']);
+            return $this->redirect(['periodicidad/index']);
         } else {
             return $this->render('create', ['prts' => $prts]);
         }

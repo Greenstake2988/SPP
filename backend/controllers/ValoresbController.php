@@ -100,7 +100,7 @@ class ValoresbController extends Controller
             foreach ($prts as $valoresb) {
                 $valoresb->save(false);
             }
-            return $this->redirect(['index']);
+            return $this->redirect(['valoresc/create','indicadores_idindicadores' => $indicadores_idindicadores]);
         } else {
             return $this->render('create', ['prts' => $prts]);
         }

@@ -45,6 +45,13 @@ border-radius: 5px;
 .wrap > .container {
      padding: 0px 0px 0px; 
 }
+.btn-success{
+  float:left;
+  text-align:end;
+  color: #fff;
+    background-color: #044887;
+    border-color: #044887;
+}
 </style>
 </head>
 <div class="caja" style="background-color:#FFFFFF; color: write; height:520px; padding:1% 2%; width:103%; margin:0% 0% 2%">
@@ -75,6 +82,9 @@ border-radius: 5px;
         <div class="col-lg-6"> </div>
       </div>
     </div>
+    <p>
+        <?= Html::a('Finalizar Evaluación', ['indicadores/index','idprogramas'=>"2"], ['class' => 'btn btn-success']) ?>
+    </p>
     </div>
     </div>
    
