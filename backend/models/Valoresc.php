@@ -98,4 +98,9 @@ class Valoresc extends \yii\db\ActiveRecord
     {
      $usuarios =  Indicadores::findOne($id);
      return $usuarios->nombre; }
+
+     public function getIndicadores($id)
+     {
+      $usuarios =  Indicadores::findOne($id);
+      return $usuarios->variableC; }
 }

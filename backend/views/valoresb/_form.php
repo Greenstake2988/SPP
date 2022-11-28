@@ -2,6 +2,7 @@
 
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
+use yii\widgets\DetailView;
 
 /* @var $this yii\web\View */
 /* @var $model app\models\Valoresb */
@@ -38,15 +39,27 @@ border-radius: 10px 10px 0px 0px;
 }
 </style>
 <body style="background-color:#727A72; margin:0%">
-<div class="caja" style="background-color:#FFFFFF; color: write; height:550px; padding:1% 2%; width:100%; margin:0% 0% 2%">
+<div class="caja" style="background-color:#FFFFFF; color: write; height:100%; padding:1% 2%; width:100%; margin:0% 0% 2%">
 <div class="Valores B" style=" max-width:100%;text-align:center">
 <img src="https://www.itsva.edu.mx/archivos/imagenes/cabecera2019-veda.png"alt="W3Schools.com" style="width:40%;height:50px;float:right;">
 <br>
 <br>
 <div><h1 style="font-family:Impact; text-align:center">Valores</h1></div>
 <?php $form = ActiveForm::begin(); ?>
+<?php foreach ($prts as $index => $valoresb) { ?>
+    
+    <?php } ?>
+    <?= 
+        DetailView::widget([
+        'model' => $valoresb,
+        'attributes' => [
+            //'idvaloresb',
+            ['label'=>'Nombre de la Variable',
+            'value'=>$valoresb->getIndicadores($valoresb->indicadores_idindicadores)],            
+        ],
+    ]) ?>
 <html>
-<p class="titulo" style="background-color:#BC955C; height: 40px;color:white;font-size: 20px;font-family:Cambria;text-align:center; margin:0%"><strong>TABLA VARIABLE B<strong></p>
+<p class="titulo" style="background-color:#BC955C; height: 40px;color:white;font-size: 20px;font-family:Cambria;text-align:center; margin:0%"><strong>Tabla Variable B<strong></p>
 </html>
 <table style="width:100%;">
     <tr>
