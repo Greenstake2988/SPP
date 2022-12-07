@@ -46,9 +46,8 @@ border-radius: 5px;
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
     <p>
         <?= Html::a('Crear un nuevo Programa', ['programas/create'], ['class' => 'btn btn-success']) ?>
-    </p>
-    <p>
         <?= Html::a('Asignar Programas a Indicadores', ['create'], ['class' => 'btn btn-success']) ?>
+        <?= Html::a('Visualizar Programas', ['programas/index'], ['class' => 'btn btn-success']) ?>
     </p>
     <?= GridView::widget([
         'dataProvider' => $dataProvider,
