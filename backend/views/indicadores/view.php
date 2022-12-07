@@ -67,7 +67,7 @@ border-radius: 7px;
 
     <p>
     <p>
-        <a class="btn btn-success" href="http://spp.valladolid.tecnm.mx/index.php?r=valoresb%2Fcreate&indicadores_idindicadores=<?php echo $model->idindicadores?>">Comenzar Evaluación</a></p>
+        <a class="btn btn-success" href="http://sii.valladolid.tecnm.mx/index.php?r=valoresb%2Fcreate&indicadores_idindicadores=<?php echo $model->idindicadores?>">Comenzar Evaluación</a></p>
     </p>
     <p>
         <?= Html::a('Consultar Valores B', ['valoresb/index'], ['class' => 'btn btn-success']) ?>

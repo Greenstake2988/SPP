@@ -21,7 +21,7 @@ $this->title = 'Programa Presupuestal';
 }
 </style>
 <div  style="text-align:center; width:90%; margin:70px auto; background-color:#6e7b96;">
-<div style="text-align:center;"><img src="PORTADA NUEVA.jpg"alt="W3Schools.com" style="width:80%;height:80%;"></div>
+<div style="text-align:center;"><img src="PORTADA NUEVA.jpg"alt="W3Schools.com" style="width:85%;height:85%;"></div>
 <style>
 body {
   background-image: url('Fondo2.png');
