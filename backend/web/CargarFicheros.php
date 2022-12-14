@@ -16,3 +16,4 @@ if ( $fichero["type"]=='application/pdf' || $fichero["type"]=='application/vnd.m
 ?>
 
 
+
