@@ -33,7 +33,7 @@ border-radius: 5px;
 }
 </style>
 <body style="background-color:#727A72;">
-<div class="caja" style="background-color:#FFFFFF; color: write; height:510px; padding:1% 2%; width:100%; margin:0% 0% 2%">
+<div class="caja" style="background-color:#FFFFFF; color: write; height:510%; padding:1% 2%; width:100%; margin:0% 0% 2%">
 <div class="indicadores-view">
 <img src="https://www.itsva.edu.mx/archivos/imagenes/cabecera2019-veda.png"alt="W3Schools.com" style="width:40%;height:60px;float:right;"></div>
 <br>
