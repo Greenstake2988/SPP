@@ -85,28 +85,28 @@ border-radius: 7px;
   <tr>
     <td><p><?php
      $query = (new \yii\db\Query())->from('valoresb');
-     $query->where('creado>="2022-01-01" && creado<"2022-03-31" && indicadores_idindicadores=:id',[':id'=>$model->idindicadores]);
+     $query->where('creado>="2023-01-01" && creado<"2023-03-31" && indicadores_idindicadores=:id',[':id'=>$model->idindicadores]);
      $sum1 = $query->sum('Total');
      echo (int)($sum1);
     ?></strong>
    </td>
     <td><p><?php 
      $query = (new \yii\db\Query())->from('valoresb');
-     $query->where('creado>="2022-04-01" && creado<"2022-06-30" && indicadores_idindicadores=:id',[':id'=>$model->idindicadores]);
+     $query->where('creado>="2023-04-01" && creado<"2023-06-30" && indicadores_idindicadores=:id',[':id'=>$model->idindicadores]);
      $sum3 = $query->sum('Total');
      echo (int)($sum3);
     ?></strong>
     </td>
     <td><p><?php 
      $query = (new \yii\db\Query())->from('valoresb');
-     $query->where('creado>="2022-07-01" && creado<"2022-09-30" && indicadores_idindicadores=:id',[':id'=>$model->idindicadores]);
+     $query->where('creado>="2023-07-01" && creado<"2023-09-30" && indicadores_idindicadores=:id',[':id'=>$model->idindicadores]);
      $sum5 = $query->sum('Total');
      echo (int)($sum5);
     ?></strong>
     </td>
     <td><p><?php 
       $query = (new \yii\db\Query())->from('valoresb');
-      $query->where('creado>="2022-10-01" && creado<"2022-12-31" && indicadores_idindicadores=:id',[':id'=>$model->idindicadores]);
+      $query->where('creado>="2023-10-01" && creado<"2023-12-31" && indicadores_idindicadores=:id',[':id'=>$model->idindicadores]);
       $sum7 = $query->sum('Total');
       echo (int)($sum7);
     ?></strong>
@@ -120,28 +120,28 @@ border-radius: 7px;
   </tr>
   <td><p><?php 
       $query = (new \yii\db\Query())->from('valoresc');
-      $query->where('creado>="2022-01-01" && creado<"2022-03-31" && indicadores_idindicadores=:id',[':id'=>$model->idindicadores]);
+      $query->where('creado>="2023-01-01" && creado<"2023-03-31" && indicadores_idindicadores=:id',[':id'=>$model->idindicadores]);
       $sum2 = $query->sum('Total');
       echo (int)($sum2);
     ?></strong>
     </td>
     <td><p><?php 
       $query = (new \yii\db\Query())->from('valoresc');
-      $query->where('creado>="2022-04-01" && creado<"2022-06-30" && indicadores_idindicadores=:id',[':id'=>$model->idindicadores]);
+      $query->where('creado>="2023-04-01" && creado<"2023-06-30" && indicadores_idindicadores=:id',[':id'=>$model->idindicadores]);
       $sum4 = $query->sum('Total');
       echo (int)($sum4);
     ?></strong>
     </td>
     <td><p><?php 
        $query = (new \yii\db\Query())->from('valoresc');
-       $query->where('creado>="2022-07-01" && creado<"2022-09-30" && indicadores_idindicadores=:id',[':id'=>$model->idindicadores]);
+       $query->where('creado>="2023-07-01" && creado<"2023-09-30" && indicadores_idindicadores=:id',[':id'=>$model->idindicadores]);
        $sum6 = $query->sum('Total');
        echo (int)($sum6);
     ?></strong>
     </td>
     <td><p><?php 
      $query = (new \yii\db\Query())->from('valoresc');
-     $query->where('creado>="2022-10-01" && creado<"2022-12-31" && indicadores_idindicadores=:id',[':id'=>$model->idindicadores]);
+     $query->where('creado>="2023-10-01" && creado<"2023-12-31" && indicadores_idindicadores=:id',[':id'=>$model->idindicadores]);
      $sum8 = $query->sum('Total');
      echo (int)($sum8);
     ?></strong>

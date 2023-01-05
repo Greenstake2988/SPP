@@ -18,8 +18,8 @@ class IndicadoresSearch extends Indicadores
     public function rules()
     {
         return [
-            [['idindicadores', 'meta', 'periodicidad_idperiodicidad'], 'integer'],
-            [['nombre', 'objetivo', 'nivelObjetivo', 'unidadMedida', 'variableB', 'medioVerificacionB', 'variableC', 'medioVerificacionC',  'estatus'], 'safe'],
+            [['idindicadores', 'meta','PeriodoEvaluacion', 'periodicidad_idperiodicidad'], 'integer'],
+            [['nombre', 'objetivo','Programa', 'nivelObjetivo', 'unidadMedida', 'variableB', 'medioVerificacionB', 'variableC', 'medioVerificacionC',  'estatus'], 'safe'],
         ];
     }
 
@@ -51,14 +51,9 @@ class IndicadoresSearch extends Indicadores
         ->leftJoin('programas_has_indicadores','programas_has_indicadores.indicadores_idindicadores=indicadores.idindicadores')
         ->where(['usuariosindicadores.idusuario'=>yii::$app->user->identity->id,'programas_has_indicadores.programas_idprogramas'=>$idprogramassearch,'estatus'=>1]);
 
-        
+         // add conditions that should always apply here
 
-
-        
-
-        // add conditions that should always apply here
-
-        $dataProvider = new ActiveDataProvider([
+         $dataProvider = new ActiveDataProvider([
             'query' => $query,
         ]);
 
@@ -78,6 +73,8 @@ class IndicadoresSearch extends Indicadores
         ]);
 
         $query->andFilterWhere(['like', 'nombre', $this->nombre])
+            ->andFilterWhere(['like', 'Programa', $this->Programa])
+            ->andFilterWhere(['like', 'PeriodoEvaluacion', $this->PeriodoEvaluacion])
             ->andFilterWhere(['like', 'objetivo', $this->objetivo])
             ->andFilterWhere(['like', 'nivelObjetivo', $this->nivelObjetivo])
             ->andFilterWhere(['like', 'unidadMedida', $this->unidadMedida])

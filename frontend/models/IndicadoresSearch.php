@@ -18,7 +18,7 @@ class IndicadoresSearch extends Indicadores
     public function rules()
     {
         return [
-            [['idindicadores', 'meta', 'periodicidad_idperiodicidad'], 'integer'],
+            [['idindicadores', 'meta','PeriodoEvaluacion', 'periodicidad_idperiodicidad'], 'integer'],
             [['nombre', 'objetivo', 'nivelObjetivo', 'unidadMedida', 'variableB', 'medioVerificacionB', 'variableC', 'medioVerificacionC'], 'safe'],
         ];
     }
@@ -65,6 +65,8 @@ class IndicadoresSearch extends Indicadores
         ]);
 
         $query->andFilterWhere(['like', 'nombre', $this->nombre])
+            ->andFilterWhere(['like', 'Programa', $this->Programa])
+            ->andFilterWhere(['like', 'PeriodoEvaluacion', $this->PeriodoEvaluacion])
             ->andFilterWhere(['like', 'objetivo', $this->objetivo])
             ->andFilterWhere(['like', 'nivelObjetivo', $this->nivelObjetivo])
             ->andFilterWhere(['like', 'unidadMedida', $this->unidadMedida])
