@@ -6,7 +6,16 @@ use yii\grid\GridView;
 
 
 /* @var $this yii\web\View */
-/* @var $model app\models\Indicadores */
+/* @var $model app\models\Indicadores 
+ <p>
+        <?= Html::a('Consultar Valores B', ['valoresb/index'], ['class' => 'btn btn-success']) ?>
+    </p>   
+    <p>
+        <?= Html::a('Consultar Valores C', ['valoresc/index'], ['class' => 'btn btn-success']) ?>
+    </p>
+
+
+*/
 
 $this->title = $model->idindicadores;
 ?>
@@ -51,6 +60,8 @@ border-radius: 7px;
         'model' => $model,
         'attributes' => [
             //'idindicadores',
+            'Programa',
+            'PeriodoEvaluacion',
             'nombre',
             'objetivo',
             'nivelObjetivo',
@@ -69,12 +80,7 @@ border-radius: 7px;
     <p>
         <a class="btn btn-success" href="http://sii.valladolid.tecnm.mx/index.php?r=valoresb%2Fcreate&indicadores_idindicadores=<?php echo $model->idindicadores?>">Comenzar Evaluación</a></p>
     </p>
-    <p>
-        <?= Html::a('Consultar Valores B', ['valoresb/index'], ['class' => 'btn btn-success']) ?>
-    </p>   
-    <p>
-        <?= Html::a('Consultar Valores C', ['valoresc/index'], ['class' => 'btn btn-success']) ?>
-    </p>
+
     <br>
     <br>
 </div>

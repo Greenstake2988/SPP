@@ -40,11 +40,13 @@ class Indicadores extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['meta', 'periodicidad_idperiodicidad'], 'integer'],
+            [['meta','PeriodoEvaluacion', 'periodicidad_idperiodicidad'], 'integer'],
             [['periodicidad_idperiodicidad'], 'required'],
-            [['nombre'], 'string', 'max' => 100],
-            [['objetivo', 'variableB', 'variableC'], 'string', 'max' => 70],
-            [['nivelObjetivo', 'unidadMedida', 'medioVerificacionB', 'medioVerificacionC'], 'string', 'max' => 45],
+            [['nombre', 'objetivo'], 'string', 'max' => 200],
+            [['nivelObjetivo', 'unidadMedida'], 'string', 'max' => 45],
+            [['Programa'], 'string', 'max' => 60],
+            [['variableB', 'variableC'], 'string', 'max' => 150],
+            [['medioVerificacionB', 'medioVerificacionC'], 'string', 'max' => 100],
             [['periodicidad_idperiodicidad'], 'exist', 'skipOnError' => true, 'targetClass' => Periodicidad::className(), 'targetAttribute' => ['periodicidad_idperiodicidad' => 'idperiodicidad']],
         ];
     }
@@ -55,7 +57,9 @@ class Indicadores extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'idindicadores' => 'Idindicadores',
+            'idindicadores' => 'Indicador',
+            'Programa' => 'Nombre del Programa',
+            'PeriodoEvaluacion' => 'Periodo de Evaluación',
             'nombre' => 'Nombre',
             'objetivo' => 'Objetivo',
             'nivelObjetivo' => 'Nivel Objetivo',
@@ -65,7 +69,6 @@ class Indicadores extends \yii\db\ActiveRecord
             'medioVerificacionB' => 'Medio Verificacion B',
             'variableC' => 'Variable C',
             'medioVerificacionC' => 'Medio Verificacion C',
-            'estatus' => 'Estatus',
             'periodicidad_idperiodicidad' => 'Periodicidad Idperiodicidad',
         ];
     }

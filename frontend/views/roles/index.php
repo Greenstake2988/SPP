@@ -40,11 +40,11 @@ border-radius: 5px;
 <img src="https://www.itsva.edu.mx/archivos/imagenes/cabecera2019-veda.png"alt="W3Schools.com" style="width:40%;height:60px;float:right;"></div>
 <br>
 <br>
-<h1 style="font-family:Impact; text-align:center">Roles</h1>
+<h1 style="font-family:Impact; text-align:center">Departamentos</h1>
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
 
     <p>
-        <?= Html::a('Crear Roles', ['create'], ['class' => 'btn btn-success']) ?>
+        <?= Html::a('Crear nuevo departamento', ['create'], ['class' => 'btn btn-success']) ?>
     </p>
     <?= GridView::widget([
         'dataProvider' => $dataProvider,

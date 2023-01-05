@@ -4,7 +4,7 @@
 $fichero = $_FILES["file"]; 
 
 // "Validación de imagenes"
-if ( $fichero["type"]=='application/pdf' || $fichero["type"]=='application/vnd.ms-excel'|| $fichero["type"]=='image/jpeg'|| $fichero["type"]=='image/png'){
+if ( $fichero["type"]=='application/pdf' || $fichero["type"]=='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'|| $fichero["type"]=='image/jpeg'|| $fichero["type"]=='image/png'){
     header('Refresh:0; url=http://sii.valladolid.tecnm.mx/index.php?r=periodicidad%2Findex');
     echo '<script>alert("¡El archivo se ha enviado satisfactoriamente!")</script>';
     move_uploaded_file($fichero["tmp_name"], "../../frontend/web/subidas/".$fichero["name"]);

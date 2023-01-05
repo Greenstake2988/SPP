@@ -43,6 +43,8 @@ border-radius: 5px;
         'model' => $model,
         'attributes' => [
             //'idindicadores',
+            'Programa',
+            'PeriodoEvaluacion',
             'nombre',
             'objetivo',
             'nivelObjetivo',
