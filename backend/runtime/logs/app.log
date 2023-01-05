@@ -43560,3 +43560,3502 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1668020454.5848
     'REQUEST_TIME' => 1668020454
 ]
+2022-11-17 17:55:28 [190.61.32.89][-][9mcs89nnj47anfusqne31gg12a][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "status/index". in /var/www/SPP/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#1 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#2 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Página no encontrada. in /var/www/SPP/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#1 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2022-11-17 17:55:28 [190.61.32.89][-][9mcs89nnj47anfusqne31gg12a][info][application] $_GET = [
+    'r' => 'status/index'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=status%2Findex'
+    'QUERY_STRING' => 'r=status%2Findex'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '61015'
+    'SCRIPT_FILENAME' => '//var/www/SPP/backend/web/index.php'
+    'SERVER_ADMIN' => '[no address given]'
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'REMOTE_ADDR' => '190.61.32.89'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.9.9'
+    'SERVER_NAME' => 'spp.valladolid.tecnm.mx'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at spp.valladolid.tecnm.mx Port 80</address>
+'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-MX,es-US;q=0.9,es-419;q=0.8,es;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'spp.valladolid.tecnm.mx'
+    'proxy-nokeepalive' => '1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1668707728.5215
+    'REQUEST_TIME' => 1668707728
+]
+2022-11-17 18:52:35 [192.168.63.173][8][jq5gj32ta6g47e7dfluislo8db][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "status/index". in /var/www/SPP/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#1 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#2 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Página no encontrada. in /var/www/SPP/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#1 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2022-11-17 18:52:35 [192.168.63.173][8][jq5gj32ta6g47e7dfluislo8db][info][application] $_GET = [
+    'r' => 'status/index'
+]
+
+$_COOKIE = [
+    '_csrf-backend' => '70ee8c2c5956859f8172d14078d4d757d8100548f31eadabb890cd8591086effa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"0TNe9XB50J3UQyy0NzJXVVtu2DlhAptJ\";}'
+    '_identity-backend' => '3231590b1420bf26f5613053651b8e286f99c0251e45b9507661dc8b2b4648eca:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[8,\"ZYMwRY3GA4DdH8s-F3iUOjPEeNmbR3Ni\",2592000]\";}'
+    'advanced-backend' => 'jq5gj32ta6g47e7dfluislo8db'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 8
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=status%2Findex'
+    'QUERY_STRING' => 'r=status%2Findex'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '57031'
+    'SCRIPT_FILENAME' => '//var/www/SPP/backend/web/index.php'
+    'SERVER_ADMIN' => '[no address given]'
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'REMOTE_ADDR' => '192.168.63.173'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.9.9'
+    'SERVER_NAME' => 'spp.valladolid.tecnm.mx'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at spp.valladolid.tecnm.mx Port 80</address>
+'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'HTTP_COOKIE' => '_csrf-backend=70ee8c2c5956859f8172d14078d4d757d8100548f31eadabb890cd8591086effa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%220TNe9XB50J3UQyy0NzJXVVtu2DlhAptJ%22%3B%7D; _identity-backend=3231590b1420bf26f5613053651b8e286f99c0251e45b9507661dc8b2b4648eca%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B8%2C%22ZYMwRY3GA4DdH8s-F3iUOjPEeNmbR3Ni%22%2C2592000%5D%22%3B%7D; advanced-backend=jq5gj32ta6g47e7dfluislo8db'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'spp.valladolid.tecnm.mx'
+    'proxy-nokeepalive' => '1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1668711155.4639
+    'REQUEST_TIME' => 1668711155
+]
+2022-11-17 20:49:28 [190.61.32.89][-][5n6tp3d5o8go5v0adeukev9g79][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "status/index". in /var/www/SPP/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#1 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#2 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Página no encontrada. in /var/www/SPP/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#1 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2022-11-17 20:49:28 [190.61.32.89][-][5n6tp3d5o8go5v0adeukev9g79][info][application] $_GET = [
+    'r' => 'status/index'
+]
+
+$_COOKIE = [
+    '_csrf-backend' => '4002b2c6c83051e9a9a5dd1a4d3b6c5a3d7e3a23551fe82b4d680deab35dd001a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"TJ21Iwqd3jsvbzKMMoIrHHMcqLlSBGjE\";}'
+    'advanced-backend' => '5n6tp3d5o8go5v0adeukev9g79'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=status%2Findex'
+    'QUERY_STRING' => 'r=status%2Findex'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '33197'
+    'SCRIPT_FILENAME' => '//var/www/SPP/backend/web/index.php'
+    'SERVER_ADMIN' => '[no address given]'
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'REMOTE_ADDR' => '190.61.32.89'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.9.9'
+    'SERVER_NAME' => 'spp.valladolid.tecnm.mx'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at spp.valladolid.tecnm.mx Port 80</address>
+'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'HTTP_COOKIE' => '_csrf-backend=4002b2c6c83051e9a9a5dd1a4d3b6c5a3d7e3a23551fe82b4d680deab35dd001a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22TJ21Iwqd3jsvbzKMMoIrHHMcqLlSBGjE%22%3B%7D; advanced-backend=5n6tp3d5o8go5v0adeukev9g79'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-MX,es-US;q=0.9,es-419;q=0.8,es;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'spp.valladolid.tecnm.mx'
+    'proxy-nokeepalive' => '1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1668718168.6253
+    'REQUEST_TIME' => 1668718168
+]
+2022-11-17 20:49:32 [190.61.32.89][-][5n6tp3d5o8go5v0adeukev9g79][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "status/index". in /var/www/SPP/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#1 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#2 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Página no encontrada. in /var/www/SPP/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#1 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2022-11-17 20:49:32 [190.61.32.89][-][5n6tp3d5o8go5v0adeukev9g79][info][application] $_GET = [
+    'r' => 'status/index'
+]
+
+$_COOKIE = [
+    '_csrf-backend' => '4002b2c6c83051e9a9a5dd1a4d3b6c5a3d7e3a23551fe82b4d680deab35dd001a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"TJ21Iwqd3jsvbzKMMoIrHHMcqLlSBGjE\";}'
+    'advanced-backend' => '5n6tp3d5o8go5v0adeukev9g79'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=status%2Findex'
+    'QUERY_STRING' => 'r=status%2Findex'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '61014'
+    'SCRIPT_FILENAME' => '//var/www/SPP/backend/web/index.php'
+    'SERVER_ADMIN' => '[no address given]'
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'REMOTE_ADDR' => '190.61.32.89'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.9.9'
+    'SERVER_NAME' => 'spp.valladolid.tecnm.mx'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at spp.valladolid.tecnm.mx Port 80</address>
+'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'HTTP_COOKIE' => '_csrf-backend=4002b2c6c83051e9a9a5dd1a4d3b6c5a3d7e3a23551fe82b4d680deab35dd001a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22TJ21Iwqd3jsvbzKMMoIrHHMcqLlSBGjE%22%3B%7D; advanced-backend=5n6tp3d5o8go5v0adeukev9g79'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-MX,es-US;q=0.9,es-419;q=0.8,es;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'spp.valladolid.tecnm.mx'
+    'proxy-nokeepalive' => '1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1668718172.3246
+    'REQUEST_TIME' => 1668718172
+]
+2022-11-23 15:26:39 [192.168.62.91][2][u17avqq606h8sn8m7niqoc7ncl][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "valores/view". in /var/www/SPP/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#1 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#2 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Página no encontrada. in /var/www/SPP/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#1 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2022-11-23 15:26:39 [192.168.62.91][2][u17avqq606h8sn8m7niqoc7ncl][info][application] $_GET = [
+    'r' => 'valores/view'
+    'id' => '3'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.776496298.1607646363'
+    '_ga_74JN7XH28D' => 'GS1.1.1644919639.5.0.1644919639.0'
+    '_csrf-backend' => 'b607571c14b212b8898872f92ec312a43881c24b62976344091e5ade4929ddcca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"IIGCNRsD7V7_Mns33zZiFWKPbtWBj9Su\";}'
+    'advanced-backend' => 'u17avqq606h8sn8m7niqoc7ncl'
+    '_identity-backend' => 'a7a506c8d76c731e1177b5ea6725fe2bfa71bce3638400720d004bacfe7e3bf0a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"PY29j0lzibL_jN6UBN5UVfksKRoQpg4O\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/index.php'
+    '__id' => 2
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=valores%2Fview&id=3'
+    'QUERY_STRING' => 'r=valores%2Fview&id=3'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '59083'
+    'SCRIPT_FILENAME' => '//var/www/SPP/backend/web/index.php'
+    'SERVER_ADMIN' => '[no address given]'
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'REMOTE_ADDR' => '192.168.62.91'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.9.9'
+    'SERVER_NAME' => 'spp.valladolid.tecnm.mx'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at spp.valladolid.tecnm.mx Port 80</address>
+'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'HTTP_COOKIE' => '_ga=GA1.1.776496298.1607646363; _ga_74JN7XH28D=GS1.1.1644919639.5.0.1644919639.0; _csrf-backend=b607571c14b212b8898872f92ec312a43881c24b62976344091e5ade4929ddcca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22IIGCNRsD7V7_Mns33zZiFWKPbtWBj9Su%22%3B%7D; advanced-backend=u17avqq606h8sn8m7niqoc7ncl; _identity-backend=a7a506c8d76c731e1177b5ea6725fe2bfa71bce3638400720d004bacfe7e3bf0a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22PY29j0lzibL_jN6UBN5UVfksKRoQpg4O%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'spp.valladolid.tecnm.mx'
+    'proxy-nokeepalive' => '1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1669217199.9777
+    'REQUEST_TIME' => 1669217199
+]
+2022-11-23 15:26:58 [192.168.62.91][2][u17avqq606h8sn8m7niqoc7ncl][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: The requested page does not exist. in /var/www/SPP/backend/controllers/ValorescController.php:149
+Stack trace:
+#0 /var/www/SPP/backend/controllers/ValorescController.php(67): backend\controllers\ValorescController->findModel()
+#1 [internal function]: backend\controllers\ValorescController->actionView()
+#2 /var/www/SPP/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#3 /var/www/SPP/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams()
+#4 /var/www/SPP/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction()
+#5 /var/www/SPP/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#6 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#7 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#8 {main}
+2022-11-23 15:26:58 [192.168.62.91][2][u17avqq606h8sn8m7niqoc7ncl][info][application] $_GET = [
+    'r' => 'valoresc/view'
+    'id' => '3'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.776496298.1607646363'
+    '_ga_74JN7XH28D' => 'GS1.1.1644919639.5.0.1644919639.0'
+    '_csrf-backend' => 'b607571c14b212b8898872f92ec312a43881c24b62976344091e5ade4929ddcca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"IIGCNRsD7V7_Mns33zZiFWKPbtWBj9Su\";}'
+    'advanced-backend' => 'u17avqq606h8sn8m7niqoc7ncl'
+    '_identity-backend' => 'a7a506c8d76c731e1177b5ea6725fe2bfa71bce3638400720d004bacfe7e3bf0a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"PY29j0lzibL_jN6UBN5UVfksKRoQpg4O\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/index.php'
+    '__id' => 2
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=valoresc%2Fview&id=3'
+    'QUERY_STRING' => 'r=valoresc%2Fview&id=3'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '59088'
+    'SCRIPT_FILENAME' => '//var/www/SPP/backend/web/index.php'
+    'SERVER_ADMIN' => '[no address given]'
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'REMOTE_ADDR' => '192.168.62.91'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.9.9'
+    'SERVER_NAME' => 'spp.valladolid.tecnm.mx'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at spp.valladolid.tecnm.mx Port 80</address>
+'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'HTTP_COOKIE' => '_ga=GA1.1.776496298.1607646363; _ga_74JN7XH28D=GS1.1.1644919639.5.0.1644919639.0; _csrf-backend=b607571c14b212b8898872f92ec312a43881c24b62976344091e5ade4929ddcca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22IIGCNRsD7V7_Mns33zZiFWKPbtWBj9Su%22%3B%7D; advanced-backend=u17avqq606h8sn8m7niqoc7ncl; _identity-backend=a7a506c8d76c731e1177b5ea6725fe2bfa71bce3638400720d004bacfe7e3bf0a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22PY29j0lzibL_jN6UBN5UVfksKRoQpg4O%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'spp.valladolid.tecnm.mx'
+    'proxy-nokeepalive' => '1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1669217218.8235
+    'REQUEST_TIME' => 1669217218
+]
+2022-11-23 15:27:15 [192.168.62.91][2][u17avqq606h8sn8m7niqoc7ncl][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "valores/view". in /var/www/SPP/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#1 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#2 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Página no encontrada. in /var/www/SPP/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#1 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2022-11-23 15:27:15 [192.168.62.91][2][u17avqq606h8sn8m7niqoc7ncl][info][application] $_GET = [
+    'r' => 'valores/view'
+    'id' => '3'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.776496298.1607646363'
+    '_ga_74JN7XH28D' => 'GS1.1.1644919639.5.0.1644919639.0'
+    '_csrf-backend' => 'b607571c14b212b8898872f92ec312a43881c24b62976344091e5ade4929ddcca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"IIGCNRsD7V7_Mns33zZiFWKPbtWBj9Su\";}'
+    'advanced-backend' => 'u17avqq606h8sn8m7niqoc7ncl'
+    '_identity-backend' => 'a7a506c8d76c731e1177b5ea6725fe2bfa71bce3638400720d004bacfe7e3bf0a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"PY29j0lzibL_jN6UBN5UVfksKRoQpg4O\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/index.php'
+    '__id' => 2
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=valores%2Fview&id=3'
+    'QUERY_STRING' => 'r=valores%2Fview&id=3'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '59092'
+    'SCRIPT_FILENAME' => '//var/www/SPP/backend/web/index.php'
+    'SERVER_ADMIN' => '[no address given]'
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'REMOTE_ADDR' => '192.168.62.91'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.9.9'
+    'SERVER_NAME' => 'spp.valladolid.tecnm.mx'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at spp.valladolid.tecnm.mx Port 80</address>
+'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'HTTP_COOKIE' => '_ga=GA1.1.776496298.1607646363; _ga_74JN7XH28D=GS1.1.1644919639.5.0.1644919639.0; _csrf-backend=b607571c14b212b8898872f92ec312a43881c24b62976344091e5ade4929ddcca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22IIGCNRsD7V7_Mns33zZiFWKPbtWBj9Su%22%3B%7D; advanced-backend=u17avqq606h8sn8m7niqoc7ncl; _identity-backend=a7a506c8d76c731e1177b5ea6725fe2bfa71bce3638400720d004bacfe7e3bf0a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22PY29j0lzibL_jN6UBN5UVfksKRoQpg4O%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'spp.valladolid.tecnm.mx'
+    'proxy-nokeepalive' => '1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1669217235.9242
+    'REQUEST_TIME' => 1669217235
+]
+2022-11-23 15:27:52 [192.168.62.91][2][u17avqq606h8sn8m7niqoc7ncl][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: The requested page does not exist. in /var/www/SPP/backend/controllers/ValoresbController.php:164
+Stack trace:
+#0 /var/www/SPP/backend/controllers/ValoresbController.php(71): backend\controllers\ValoresbController->findModel()
+#1 [internal function]: backend\controllers\ValoresbController->actionView()
+#2 /var/www/SPP/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#3 /var/www/SPP/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams()
+#4 /var/www/SPP/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction()
+#5 /var/www/SPP/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#6 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#7 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#8 {main}
+2022-11-23 15:27:52 [192.168.62.91][2][u17avqq606h8sn8m7niqoc7ncl][info][application] $_GET = [
+    'r' => 'valoresb/view'
+    'id' => '3'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.776496298.1607646363'
+    '_ga_74JN7XH28D' => 'GS1.1.1644919639.5.0.1644919639.0'
+    '_csrf-backend' => 'b607571c14b212b8898872f92ec312a43881c24b62976344091e5ade4929ddcca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"IIGCNRsD7V7_Mns33zZiFWKPbtWBj9Su\";}'
+    'advanced-backend' => 'u17avqq606h8sn8m7niqoc7ncl'
+    '_identity-backend' => 'a7a506c8d76c731e1177b5ea6725fe2bfa71bce3638400720d004bacfe7e3bf0a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"PY29j0lzibL_jN6UBN5UVfksKRoQpg4O\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/index.php'
+    '__id' => 2
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=valoresb%2Fview&id=3'
+    'QUERY_STRING' => 'r=valoresb%2Fview&id=3'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '59097'
+    'SCRIPT_FILENAME' => '//var/www/SPP/backend/web/index.php'
+    'SERVER_ADMIN' => '[no address given]'
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'REMOTE_ADDR' => '192.168.62.91'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.9.9'
+    'SERVER_NAME' => 'spp.valladolid.tecnm.mx'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at spp.valladolid.tecnm.mx Port 80</address>
+'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'HTTP_COOKIE' => '_ga=GA1.1.776496298.1607646363; _ga_74JN7XH28D=GS1.1.1644919639.5.0.1644919639.0; _csrf-backend=b607571c14b212b8898872f92ec312a43881c24b62976344091e5ade4929ddcca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22IIGCNRsD7V7_Mns33zZiFWKPbtWBj9Su%22%3B%7D; advanced-backend=u17avqq606h8sn8m7niqoc7ncl; _identity-backend=a7a506c8d76c731e1177b5ea6725fe2bfa71bce3638400720d004bacfe7e3bf0a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22PY29j0lzibL_jN6UBN5UVfksKRoQpg4O%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'spp.valladolid.tecnm.mx'
+    'proxy-nokeepalive' => '1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1669217272.6665
+    'REQUEST_TIME' => 1669217272
+]
+2022-11-28 19:26:24 [192.168.60.193][2][r1gs50lmj2n41rr80bn2sbs8n2][error][Error] Error: Class 'Html' not found in /var/www/SPP/backend/views/periodicidad/index.php:86
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/base/View.php(332): require()
+#1 /var/www/SPP/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile()
+#2 /var/www/SPP/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile()
+#3 /var/www/SPP/vendor/yiisoft/yii2/base/Controller.php(384): yii\base\View->render()
+#4 /var/www/SPP/backend/controllers/PeriodicidadController.php(54): yii\base\Controller->render()
+#5 [internal function]: backend\controllers\PeriodicidadController->actionIndex()
+#6 /var/www/SPP/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#7 /var/www/SPP/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams()
+#8 /var/www/SPP/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction()
+#9 /var/www/SPP/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#10 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#11 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#12 {main}
+2022-11-28 19:26:24 [192.168.60.193][2][r1gs50lmj2n41rr80bn2sbs8n2][info][application] $_GET = [
+    'r' => 'periodicidad/index'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.776496298.1607646363'
+    '_ga_74JN7XH28D' => 'GS1.1.1644919639.5.0.1644919639.0'
+    '_csrf-backend' => 'd0de161d1e7ac47a15e657665e76d85740b0db2682292a5ee5d9a2544bd3b887a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"iLPwhDUsmR35HHsd-vR0TWIZsAi7sLti\";}'
+    'advanced-backend' => 'r1gs50lmj2n41rr80bn2sbs8n2'
+    '_identity-backend' => 'a7a506c8d76c731e1177b5ea6725fe2bfa71bce3638400720d004bacfe7e3bf0a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"PY29j0lzibL_jN6UBN5UVfksKRoQpg4O\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 2
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=periodicidad%2Findex'
+    'QUERY_STRING' => 'r=periodicidad%2Findex'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '51234'
+    'SCRIPT_FILENAME' => '//var/www/SPP/backend/web/index.php'
+    'SERVER_ADMIN' => '[no address given]'
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'REMOTE_ADDR' => '192.168.60.193'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.9.9'
+    'SERVER_NAME' => 'spp.valladolid.tecnm.mx'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at spp.valladolid.tecnm.mx Port 80</address>
+'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'HTTP_COOKIE' => '_ga=GA1.1.776496298.1607646363; _ga_74JN7XH28D=GS1.1.1644919639.5.0.1644919639.0; _csrf-backend=d0de161d1e7ac47a15e657665e76d85740b0db2682292a5ee5d9a2544bd3b887a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22iLPwhDUsmR35HHsd-vR0TWIZsAi7sLti%22%3B%7D; advanced-backend=r1gs50lmj2n41rr80bn2sbs8n2; _identity-backend=a7a506c8d76c731e1177b5ea6725fe2bfa71bce3638400720d004bacfe7e3bf0a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22PY29j0lzibL_jN6UBN5UVfksKRoQpg4O%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://spp.valladolid.tecnm.mx/index.php?r=valoresc%2Fcreate&indicadores_idindicadores=3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'spp.valladolid.tecnm.mx'
+    'proxy-nokeepalive' => '1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1669663584.3837
+    'REQUEST_TIME' => 1669663584
+]
+2022-11-28 19:26:41 [192.168.60.193][2][r1gs50lmj2n41rr80bn2sbs8n2][error][Error] Error: Class 'Html' not found in /var/www/SPP/backend/views/periodicidad/index.php:86
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/base/View.php(332): require()
+#1 /var/www/SPP/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile()
+#2 /var/www/SPP/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile()
+#3 /var/www/SPP/vendor/yiisoft/yii2/base/Controller.php(384): yii\base\View->render()
+#4 /var/www/SPP/backend/controllers/PeriodicidadController.php(54): yii\base\Controller->render()
+#5 [internal function]: backend\controllers\PeriodicidadController->actionIndex()
+#6 /var/www/SPP/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#7 /var/www/SPP/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams()
+#8 /var/www/SPP/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction()
+#9 /var/www/SPP/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#10 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#11 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#12 {main}
+2022-11-28 19:26:41 [192.168.60.193][2][r1gs50lmj2n41rr80bn2sbs8n2][info][application] $_GET = [
+    'r' => 'periodicidad/index'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.776496298.1607646363'
+    '_ga_74JN7XH28D' => 'GS1.1.1644919639.5.0.1644919639.0'
+    '_csrf-backend' => 'd0de161d1e7ac47a15e657665e76d85740b0db2682292a5ee5d9a2544bd3b887a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"iLPwhDUsmR35HHsd-vR0TWIZsAi7sLti\";}'
+    'advanced-backend' => 'r1gs50lmj2n41rr80bn2sbs8n2'
+    '_identity-backend' => 'a7a506c8d76c731e1177b5ea6725fe2bfa71bce3638400720d004bacfe7e3bf0a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"PY29j0lzibL_jN6UBN5UVfksKRoQpg4O\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 2
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=periodicidad%2Findex'
+    'QUERY_STRING' => 'r=periodicidad%2Findex'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '51236'
+    'SCRIPT_FILENAME' => '//var/www/SPP/backend/web/index.php'
+    'SERVER_ADMIN' => '[no address given]'
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'REMOTE_ADDR' => '192.168.60.193'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.9.9'
+    'SERVER_NAME' => 'spp.valladolid.tecnm.mx'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at spp.valladolid.tecnm.mx Port 80</address>
+'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'HTTP_COOKIE' => '_ga=GA1.1.776496298.1607646363; _ga_74JN7XH28D=GS1.1.1644919639.5.0.1644919639.0; _csrf-backend=d0de161d1e7ac47a15e657665e76d85740b0db2682292a5ee5d9a2544bd3b887a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22iLPwhDUsmR35HHsd-vR0TWIZsAi7sLti%22%3B%7D; advanced-backend=r1gs50lmj2n41rr80bn2sbs8n2; _identity-backend=a7a506c8d76c731e1177b5ea6725fe2bfa71bce3638400720d004bacfe7e3bf0a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22PY29j0lzibL_jN6UBN5UVfksKRoQpg4O%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://spp.valladolid.tecnm.mx/index.php?r=valoresc%2Fcreate&indicadores_idindicadores=3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'spp.valladolid.tecnm.mx'
+    'proxy-nokeepalive' => '1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1669663601.1705
+    'REQUEST_TIME' => 1669663601
+]
+2022-11-28 19:27:00 [192.168.60.193][2][r1gs50lmj2n41rr80bn2sbs8n2][error][Error] Error: Class 'Html' not found in /var/www/SPP/backend/views/periodicidad/index.php:86
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/base/View.php(332): require()
+#1 /var/www/SPP/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile()
+#2 /var/www/SPP/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile()
+#3 /var/www/SPP/vendor/yiisoft/yii2/base/Controller.php(384): yii\base\View->render()
+#4 /var/www/SPP/backend/controllers/PeriodicidadController.php(54): yii\base\Controller->render()
+#5 [internal function]: backend\controllers\PeriodicidadController->actionIndex()
+#6 /var/www/SPP/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#7 /var/www/SPP/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams()
+#8 /var/www/SPP/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction()
+#9 /var/www/SPP/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#10 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#11 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#12 {main}
+2022-11-28 19:27:00 [192.168.60.193][2][r1gs50lmj2n41rr80bn2sbs8n2][info][application] $_GET = [
+    'r' => 'periodicidad/index'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.776496298.1607646363'
+    '_ga_74JN7XH28D' => 'GS1.1.1644919639.5.0.1644919639.0'
+    '_csrf-backend' => 'd0de161d1e7ac47a15e657665e76d85740b0db2682292a5ee5d9a2544bd3b887a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"iLPwhDUsmR35HHsd-vR0TWIZsAi7sLti\";}'
+    'advanced-backend' => 'r1gs50lmj2n41rr80bn2sbs8n2'
+    '_identity-backend' => 'a7a506c8d76c731e1177b5ea6725fe2bfa71bce3638400720d004bacfe7e3bf0a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"PY29j0lzibL_jN6UBN5UVfksKRoQpg4O\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 2
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=periodicidad%2Findex'
+    'QUERY_STRING' => 'r=periodicidad%2Findex'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '51238'
+    'SCRIPT_FILENAME' => '//var/www/SPP/backend/web/index.php'
+    'SERVER_ADMIN' => '[no address given]'
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'REMOTE_ADDR' => '192.168.60.193'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.9.9'
+    'SERVER_NAME' => 'spp.valladolid.tecnm.mx'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at spp.valladolid.tecnm.mx Port 80</address>
+'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'HTTP_COOKIE' => '_ga=GA1.1.776496298.1607646363; _ga_74JN7XH28D=GS1.1.1644919639.5.0.1644919639.0; _csrf-backend=d0de161d1e7ac47a15e657665e76d85740b0db2682292a5ee5d9a2544bd3b887a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22iLPwhDUsmR35HHsd-vR0TWIZsAi7sLti%22%3B%7D; advanced-backend=r1gs50lmj2n41rr80bn2sbs8n2; _identity-backend=a7a506c8d76c731e1177b5ea6725fe2bfa71bce3638400720d004bacfe7e3bf0a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22PY29j0lzibL_jN6UBN5UVfksKRoQpg4O%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://spp.valladolid.tecnm.mx/index.php?r=valoresc%2Fcreate&indicadores_idindicadores=3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'spp.valladolid.tecnm.mx'
+    'proxy-nokeepalive' => '1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1669663620.164
+    'REQUEST_TIME' => 1669663620
+]
+2022-11-28 19:27:15 [192.168.60.193][2][r1gs50lmj2n41rr80bn2sbs8n2][error][Error] Error: Class 'Html' not found in /var/www/SPP/backend/views/periodicidad/index.php:86
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/base/View.php(332): require()
+#1 /var/www/SPP/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile()
+#2 /var/www/SPP/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile()
+#3 /var/www/SPP/vendor/yiisoft/yii2/base/Controller.php(384): yii\base\View->render()
+#4 /var/www/SPP/backend/controllers/PeriodicidadController.php(54): yii\base\Controller->render()
+#5 [internal function]: backend\controllers\PeriodicidadController->actionIndex()
+#6 /var/www/SPP/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#7 /var/www/SPP/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams()
+#8 /var/www/SPP/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction()
+#9 /var/www/SPP/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#10 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#11 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#12 {main}
+2022-11-28 19:27:15 [192.168.60.193][2][r1gs50lmj2n41rr80bn2sbs8n2][info][application] $_GET = [
+    'r' => 'periodicidad/index'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.776496298.1607646363'
+    '_ga_74JN7XH28D' => 'GS1.1.1644919639.5.0.1644919639.0'
+    '_csrf-backend' => 'd0de161d1e7ac47a15e657665e76d85740b0db2682292a5ee5d9a2544bd3b887a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"iLPwhDUsmR35HHsd-vR0TWIZsAi7sLti\";}'
+    'advanced-backend' => 'r1gs50lmj2n41rr80bn2sbs8n2'
+    '_identity-backend' => 'a7a506c8d76c731e1177b5ea6725fe2bfa71bce3638400720d004bacfe7e3bf0a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"PY29j0lzibL_jN6UBN5UVfksKRoQpg4O\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 2
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=periodicidad%2Findex'
+    'QUERY_STRING' => 'r=periodicidad%2Findex'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '51240'
+    'SCRIPT_FILENAME' => '//var/www/SPP/backend/web/index.php'
+    'SERVER_ADMIN' => '[no address given]'
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'REMOTE_ADDR' => '192.168.60.193'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.9.9'
+    'SERVER_NAME' => 'spp.valladolid.tecnm.mx'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at spp.valladolid.tecnm.mx Port 80</address>
+'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'HTTP_COOKIE' => '_ga=GA1.1.776496298.1607646363; _ga_74JN7XH28D=GS1.1.1644919639.5.0.1644919639.0; _csrf-backend=d0de161d1e7ac47a15e657665e76d85740b0db2682292a5ee5d9a2544bd3b887a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22iLPwhDUsmR35HHsd-vR0TWIZsAi7sLti%22%3B%7D; advanced-backend=r1gs50lmj2n41rr80bn2sbs8n2; _identity-backend=a7a506c8d76c731e1177b5ea6725fe2bfa71bce3638400720d004bacfe7e3bf0a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22PY29j0lzibL_jN6UBN5UVfksKRoQpg4O%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://spp.valladolid.tecnm.mx/index.php?r=valoresc%2Fcreate&indicadores_idindicadores=3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'spp.valladolid.tecnm.mx'
+    'proxy-nokeepalive' => '1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1669663635.7121
+    'REQUEST_TIME' => 1669663635
+]
+2022-11-28 19:27:29 [192.168.60.193][2][r1gs50lmj2n41rr80bn2sbs8n2][error][Error] Error: Class 'Html' not found in /var/www/SPP/backend/views/periodicidad/index.php:86
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/base/View.php(332): require()
+#1 /var/www/SPP/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile()
+#2 /var/www/SPP/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile()
+#3 /var/www/SPP/vendor/yiisoft/yii2/base/Controller.php(384): yii\base\View->render()
+#4 /var/www/SPP/backend/controllers/PeriodicidadController.php(54): yii\base\Controller->render()
+#5 [internal function]: backend\controllers\PeriodicidadController->actionIndex()
+#6 /var/www/SPP/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#7 /var/www/SPP/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams()
+#8 /var/www/SPP/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction()
+#9 /var/www/SPP/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#10 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#11 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#12 {main}
+2022-11-28 19:27:29 [192.168.60.193][2][r1gs50lmj2n41rr80bn2sbs8n2][info][application] $_GET = [
+    'r' => 'periodicidad/index'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.776496298.1607646363'
+    '_ga_74JN7XH28D' => 'GS1.1.1644919639.5.0.1644919639.0'
+    '_csrf-backend' => 'd0de161d1e7ac47a15e657665e76d85740b0db2682292a5ee5d9a2544bd3b887a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"iLPwhDUsmR35HHsd-vR0TWIZsAi7sLti\";}'
+    'advanced-backend' => 'r1gs50lmj2n41rr80bn2sbs8n2'
+    '_identity-backend' => 'a7a506c8d76c731e1177b5ea6725fe2bfa71bce3638400720d004bacfe7e3bf0a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"PY29j0lzibL_jN6UBN5UVfksKRoQpg4O\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 2
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=periodicidad%2Findex'
+    'QUERY_STRING' => 'r=periodicidad%2Findex'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '51242'
+    'SCRIPT_FILENAME' => '//var/www/SPP/backend/web/index.php'
+    'SERVER_ADMIN' => '[no address given]'
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'REMOTE_ADDR' => '192.168.60.193'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.9.9'
+    'SERVER_NAME' => 'spp.valladolid.tecnm.mx'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at spp.valladolid.tecnm.mx Port 80</address>
+'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'HTTP_COOKIE' => '_ga=GA1.1.776496298.1607646363; _ga_74JN7XH28D=GS1.1.1644919639.5.0.1644919639.0; _csrf-backend=d0de161d1e7ac47a15e657665e76d85740b0db2682292a5ee5d9a2544bd3b887a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22iLPwhDUsmR35HHsd-vR0TWIZsAi7sLti%22%3B%7D; advanced-backend=r1gs50lmj2n41rr80bn2sbs8n2; _identity-backend=a7a506c8d76c731e1177b5ea6725fe2bfa71bce3638400720d004bacfe7e3bf0a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22PY29j0lzibL_jN6UBN5UVfksKRoQpg4O%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://spp.valladolid.tecnm.mx/index.php?r=valoresc%2Fcreate&indicadores_idindicadores=3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'spp.valladolid.tecnm.mx'
+    'proxy-nokeepalive' => '1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1669663649.0037
+    'REQUEST_TIME' => 1669663649
+]
+2022-11-28 19:28:07 [192.168.61.43][8][qoh21n3rga3eaju4j6s48uhr07][error][Error] Error: Class 'Html' not found in /var/www/SPP/backend/views/periodicidad/index.php:86
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/base/View.php(332): require()
+#1 /var/www/SPP/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile()
+#2 /var/www/SPP/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile()
+#3 /var/www/SPP/vendor/yiisoft/yii2/base/Controller.php(384): yii\base\View->render()
+#4 /var/www/SPP/backend/controllers/PeriodicidadController.php(54): yii\base\Controller->render()
+#5 [internal function]: backend\controllers\PeriodicidadController->actionIndex()
+#6 /var/www/SPP/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#7 /var/www/SPP/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams()
+#8 /var/www/SPP/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction()
+#9 /var/www/SPP/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#10 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#11 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#12 {main}
+2022-11-28 19:28:07 [192.168.61.43][8][qoh21n3rga3eaju4j6s48uhr07][info][application] $_GET = [
+    'r' => 'periodicidad/index'
+]
+
+$_COOKIE = [
+    '_identity-backend' => '3231590b1420bf26f5613053651b8e286f99c0251e45b9507661dc8b2b4648eca:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[8,\"ZYMwRY3GA4DdH8s-F3iUOjPEeNmbR3Ni\",2592000]\";}'
+    '_csrf-backend' => 'ca97844ec14d9586caa66642cd83261a75a6e1842372e5b3194d9a95e7a64069a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"nYA_VXnhp2UawndmnD7rfgu5PDApdfGd\";}'
+    'advanced-backend' => 'qoh21n3rga3eaju4j6s48uhr07'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 8
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=periodicidad%2Findex'
+    'QUERY_STRING' => 'r=periodicidad%2Findex'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '62690'
+    'SCRIPT_FILENAME' => '//var/www/SPP/backend/web/index.php'
+    'SERVER_ADMIN' => '[no address given]'
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'REMOTE_ADDR' => '192.168.61.43'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.9.9'
+    'SERVER_NAME' => 'spp.valladolid.tecnm.mx'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at spp.valladolid.tecnm.mx Port 80</address>
+'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'HTTP_COOKIE' => '_identity-backend=3231590b1420bf26f5613053651b8e286f99c0251e45b9507661dc8b2b4648eca%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B8%2C%22ZYMwRY3GA4DdH8s-F3iUOjPEeNmbR3Ni%22%2C2592000%5D%22%3B%7D; _csrf-backend=ca97844ec14d9586caa66642cd83261a75a6e1842372e5b3194d9a95e7a64069a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22nYA_VXnhp2UawndmnD7rfgu5PDApdfGd%22%3B%7D; advanced-backend=qoh21n3rga3eaju4j6s48uhr07'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'spp.valladolid.tecnm.mx'
+    'proxy-nokeepalive' => '1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1669663687.698
+    'REQUEST_TIME' => 1669663687
+]
+2022-11-28 20:25:03 [192.168.61.43][8][abr3r5imomkockvt84m055r8lg][error][Error] Error: Class 'Html' not found in /var/www/SPP/backend/views/periodicidad/index.php:86
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/base/View.php(332): require()
+#1 /var/www/SPP/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile()
+#2 /var/www/SPP/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile()
+#3 /var/www/SPP/vendor/yiisoft/yii2/base/Controller.php(384): yii\base\View->render()
+#4 /var/www/SPP/backend/controllers/PeriodicidadController.php(54): yii\base\Controller->render()
+#5 [internal function]: backend\controllers\PeriodicidadController->actionIndex()
+#6 /var/www/SPP/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#7 /var/www/SPP/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams()
+#8 /var/www/SPP/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction()
+#9 /var/www/SPP/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#10 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#11 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#12 {main}
+2022-11-28 20:25:03 [192.168.61.43][8][abr3r5imomkockvt84m055r8lg][info][application] $_GET = [
+    'r' => 'periodicidad/index'
+]
+
+$_COOKIE = [
+    '_identity-backend' => '3231590b1420bf26f5613053651b8e286f99c0251e45b9507661dc8b2b4648eca:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[8,\"ZYMwRY3GA4DdH8s-F3iUOjPEeNmbR3Ni\",2592000]\";}'
+    '_csrf-backend' => 'ca97844ec14d9586caa66642cd83261a75a6e1842372e5b3194d9a95e7a64069a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"nYA_VXnhp2UawndmnD7rfgu5PDApdfGd\";}'
+    'advanced-backend' => 'qoh21n3rga3eaju4j6s48uhr07'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 8
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=periodicidad%2Findex'
+    'QUERY_STRING' => 'r=periodicidad%2Findex'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '64320'
+    'SCRIPT_FILENAME' => '//var/www/SPP/backend/web/index.php'
+    'SERVER_ADMIN' => '[no address given]'
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'REMOTE_ADDR' => '192.168.61.43'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.9.9'
+    'SERVER_NAME' => 'spp.valladolid.tecnm.mx'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at spp.valladolid.tecnm.mx Port 80</address>
+'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'HTTP_COOKIE' => '_identity-backend=3231590b1420bf26f5613053651b8e286f99c0251e45b9507661dc8b2b4648eca%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B8%2C%22ZYMwRY3GA4DdH8s-F3iUOjPEeNmbR3Ni%22%2C2592000%5D%22%3B%7D; _csrf-backend=ca97844ec14d9586caa66642cd83261a75a6e1842372e5b3194d9a95e7a64069a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22nYA_VXnhp2UawndmnD7rfgu5PDApdfGd%22%3B%7D; advanced-backend=qoh21n3rga3eaju4j6s48uhr07'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'spp.valladolid.tecnm.mx'
+    'proxy-nokeepalive' => '1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1669667103.2243
+    'REQUEST_TIME' => 1669667103
+]
+2022-11-28 20:25:04 [192.168.61.43][8][abr3r5imomkockvt84m055r8lg][error][Error] Error: Class 'Html' not found in /var/www/SPP/backend/views/periodicidad/index.php:86
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/base/View.php(332): require()
+#1 /var/www/SPP/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile()
+#2 /var/www/SPP/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile()
+#3 /var/www/SPP/vendor/yiisoft/yii2/base/Controller.php(384): yii\base\View->render()
+#4 /var/www/SPP/backend/controllers/PeriodicidadController.php(54): yii\base\Controller->render()
+#5 [internal function]: backend\controllers\PeriodicidadController->actionIndex()
+#6 /var/www/SPP/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#7 /var/www/SPP/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams()
+#8 /var/www/SPP/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction()
+#9 /var/www/SPP/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#10 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#11 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#12 {main}
+2022-11-28 20:25:04 [192.168.61.43][8][abr3r5imomkockvt84m055r8lg][info][application] $_GET = [
+    'r' => 'periodicidad/index'
+]
+
+$_COOKIE = [
+    '_identity-backend' => '3231590b1420bf26f5613053651b8e286f99c0251e45b9507661dc8b2b4648eca:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[8,\"ZYMwRY3GA4DdH8s-F3iUOjPEeNmbR3Ni\",2592000]\";}'
+    '_csrf-backend' => 'ca97844ec14d9586caa66642cd83261a75a6e1842372e5b3194d9a95e7a64069a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"nYA_VXnhp2UawndmnD7rfgu5PDApdfGd\";}'
+    'advanced-backend' => 'abr3r5imomkockvt84m055r8lg'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 8
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=periodicidad%2Findex'
+    'QUERY_STRING' => 'r=periodicidad%2Findex'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '64319'
+    'SCRIPT_FILENAME' => '//var/www/SPP/backend/web/index.php'
+    'SERVER_ADMIN' => '[no address given]'
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'REMOTE_ADDR' => '192.168.61.43'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.9.9'
+    'SERVER_NAME' => 'spp.valladolid.tecnm.mx'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at spp.valladolid.tecnm.mx Port 80</address>
+'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'HTTP_COOKIE' => '_identity-backend=3231590b1420bf26f5613053651b8e286f99c0251e45b9507661dc8b2b4648eca%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B8%2C%22ZYMwRY3GA4DdH8s-F3iUOjPEeNmbR3Ni%22%2C2592000%5D%22%3B%7D; _csrf-backend=ca97844ec14d9586caa66642cd83261a75a6e1842372e5b3194d9a95e7a64069a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22nYA_VXnhp2UawndmnD7rfgu5PDApdfGd%22%3B%7D; advanced-backend=abr3r5imomkockvt84m055r8lg'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'spp.valladolid.tecnm.mx'
+    'proxy-nokeepalive' => '1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1669667104.5046
+    'REQUEST_TIME' => 1669667104
+]
+2022-11-28 20:25:08 [192.168.61.43][8][abr3r5imomkockvt84m055r8lg][error][Error] Error: Class 'Html' not found in /var/www/SPP/backend/views/periodicidad/index.php:86
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/base/View.php(332): require()
+#1 /var/www/SPP/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile()
+#2 /var/www/SPP/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile()
+#3 /var/www/SPP/vendor/yiisoft/yii2/base/Controller.php(384): yii\base\View->render()
+#4 /var/www/SPP/backend/controllers/PeriodicidadController.php(54): yii\base\Controller->render()
+#5 [internal function]: backend\controllers\PeriodicidadController->actionIndex()
+#6 /var/www/SPP/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#7 /var/www/SPP/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams()
+#8 /var/www/SPP/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction()
+#9 /var/www/SPP/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#10 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#11 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#12 {main}
+2022-11-28 20:25:08 [192.168.61.43][8][abr3r5imomkockvt84m055r8lg][info][application] $_GET = [
+    'r' => 'periodicidad/index'
+]
+
+$_COOKIE = [
+    '_identity-backend' => '3231590b1420bf26f5613053651b8e286f99c0251e45b9507661dc8b2b4648eca:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[8,\"ZYMwRY3GA4DdH8s-F3iUOjPEeNmbR3Ni\",2592000]\";}'
+    '_csrf-backend' => 'ca97844ec14d9586caa66642cd83261a75a6e1842372e5b3194d9a95e7a64069a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"nYA_VXnhp2UawndmnD7rfgu5PDApdfGd\";}'
+    'advanced-backend' => 'abr3r5imomkockvt84m055r8lg'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 8
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=periodicidad%2Findex'
+    'QUERY_STRING' => 'r=periodicidad%2Findex'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '64326'
+    'SCRIPT_FILENAME' => '//var/www/SPP/backend/web/index.php'
+    'SERVER_ADMIN' => '[no address given]'
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'REMOTE_ADDR' => '192.168.61.43'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.9.9'
+    'SERVER_NAME' => 'spp.valladolid.tecnm.mx'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at spp.valladolid.tecnm.mx Port 80</address>
+'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'HTTP_COOKIE' => '_identity-backend=3231590b1420bf26f5613053651b8e286f99c0251e45b9507661dc8b2b4648eca%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B8%2C%22ZYMwRY3GA4DdH8s-F3iUOjPEeNmbR3Ni%22%2C2592000%5D%22%3B%7D; _csrf-backend=ca97844ec14d9586caa66642cd83261a75a6e1842372e5b3194d9a95e7a64069a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22nYA_VXnhp2UawndmnD7rfgu5PDApdfGd%22%3B%7D; advanced-backend=abr3r5imomkockvt84m055r8lg'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'spp.valladolid.tecnm.mx'
+    'proxy-nokeepalive' => '1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1669667108.5752
+    'REQUEST_TIME' => 1669667108
+]
+2022-12-27 18:58:55 [109.123.237.156][-][127bvd3elss2n7ashk6qfojpcb][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/login/wp-includes/wlwmanifest.xml". in /var/www/SPP/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#1 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#2 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Página no encontrada. in /var/www/SPP/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#1 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2022-12-27 18:58:55 [109.123.237.156][-][127bvd3elss2n7ashk6qfojpcb][info][application] $_GET = [
+    'r' => 'site/login/wp-includes/wlwmanifest.xml'
+]
+
+$_COOKIE = [
+    'advanced-backend' => '127bvd3elss2n7ashk6qfojpcb'
+    '_csrf-backend' => '70bf425840d5caa64d49a20c962f037914186f732ff3f33d47c807ec4322a9a0a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"7odWT81rd7EiwHI7nXGu5zefSXD3mLdm\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2flogin/wp-includes/wlwmanifest.xml'
+    'QUERY_STRING' => 'r=site%2flogin/wp-includes/wlwmanifest.xml'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '62058'
+    'SCRIPT_FILENAME' => '//var/www/SPP/backend/web/index.php'
+    'SERVER_ADMIN' => '[no address given]'
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'REMOTE_ADDR' => '109.123.237.156'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.9.9'
+    'SERVER_NAME' => 'sii.valladolid.tecnm.mx'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at sii.valladolid.tecnm.mx Port 80</address>
+'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_COOKIE' => 'advanced-backend=127bvd3elss2n7ashk6qfojpcb; _csrf-backend=70bf425840d5caa64d49a20c962f037914186f732ff3f33d47c807ec4322a9a0a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%227odWT81rd7EiwHI7nXGu5zefSXD3mLdm%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_KEEP_ALIVE' => '300'
+    'HTTP_HOST' => 'sii.valladolid.tecnm.mx'
+    'proxy-nokeepalive' => '1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1672167535.3085
+    'REQUEST_TIME' => 1672167535
+]
+2022-12-27 18:58:55 [109.123.237.156][-][127bvd3elss2n7ashk6qfojpcb][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/login/xmlrpc.php?rsd". in /var/www/SPP/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#1 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#2 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Página no encontrada. in /var/www/SPP/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#1 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2022-12-27 18:58:55 [109.123.237.156][-][127bvd3elss2n7ashk6qfojpcb][info][application] $_GET = [
+    'r' => 'site/login/xmlrpc.php?rsd'
+]
+
+$_COOKIE = [
+    'advanced-backend' => '127bvd3elss2n7ashk6qfojpcb'
+    '_csrf-backend' => '70bf425840d5caa64d49a20c962f037914186f732ff3f33d47c807ec4322a9a0a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"7odWT81rd7EiwHI7nXGu5zefSXD3mLdm\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2flogin/xmlrpc.php?rsd'
+    'QUERY_STRING' => 'r=site%2flogin/xmlrpc.php?rsd'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '62058'
+    'SCRIPT_FILENAME' => '//var/www/SPP/backend/web/index.php'
+    'SERVER_ADMIN' => '[no address given]'
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'REMOTE_ADDR' => '109.123.237.156'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.9.9'
+    'SERVER_NAME' => 'sii.valladolid.tecnm.mx'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at sii.valladolid.tecnm.mx Port 80</address>
+'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_COOKIE' => 'advanced-backend=127bvd3elss2n7ashk6qfojpcb; _csrf-backend=70bf425840d5caa64d49a20c962f037914186f732ff3f33d47c807ec4322a9a0a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%227odWT81rd7EiwHI7nXGu5zefSXD3mLdm%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_KEEP_ALIVE' => '300'
+    'HTTP_HOST' => 'sii.valladolid.tecnm.mx'
+    'proxy-nokeepalive' => '1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1672167535.6081
+    'REQUEST_TIME' => 1672167535
+]
+2022-12-27 18:58:56 [109.123.237.156][-][127bvd3elss2n7ashk6qfojpcb][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/login/blog/wp-includes/wlwmanifest.xml". in /var/www/SPP/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#1 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#2 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Página no encontrada. in /var/www/SPP/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#1 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2022-12-27 18:58:56 [109.123.237.156][-][127bvd3elss2n7ashk6qfojpcb][info][application] $_GET = [
+    'r' => 'site/login/blog/wp-includes/wlwmanifest.xml'
+]
+
+$_COOKIE = [
+    'advanced-backend' => '127bvd3elss2n7ashk6qfojpcb'
+    '_csrf-backend' => '70bf425840d5caa64d49a20c962f037914186f732ff3f33d47c807ec4322a9a0a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"7odWT81rd7EiwHI7nXGu5zefSXD3mLdm\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2flogin/blog/wp-includes/wlwmanifest.xml'
+    'QUERY_STRING' => 'r=site%2flogin/blog/wp-includes/wlwmanifest.xml'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '62058'
+    'SCRIPT_FILENAME' => '//var/www/SPP/backend/web/index.php'
+    'SERVER_ADMIN' => '[no address given]'
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'REMOTE_ADDR' => '109.123.237.156'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.9.9'
+    'SERVER_NAME' => 'sii.valladolid.tecnm.mx'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at sii.valladolid.tecnm.mx Port 80</address>
+'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_COOKIE' => 'advanced-backend=127bvd3elss2n7ashk6qfojpcb; _csrf-backend=70bf425840d5caa64d49a20c962f037914186f732ff3f33d47c807ec4322a9a0a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%227odWT81rd7EiwHI7nXGu5zefSXD3mLdm%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_KEEP_ALIVE' => '300'
+    'HTTP_HOST' => 'sii.valladolid.tecnm.mx'
+    'proxy-nokeepalive' => '1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1672167536.1304
+    'REQUEST_TIME' => 1672167536
+]
+2022-12-27 18:58:56 [109.123.237.156][-][127bvd3elss2n7ashk6qfojpcb][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/login/web/wp-includes/wlwmanifest.xml". in /var/www/SPP/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#1 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#2 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Página no encontrada. in /var/www/SPP/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#1 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2022-12-27 18:58:56 [109.123.237.156][-][127bvd3elss2n7ashk6qfojpcb][info][application] $_GET = [
+    'r' => 'site/login/web/wp-includes/wlwmanifest.xml'
+]
+
+$_COOKIE = [
+    'advanced-backend' => '127bvd3elss2n7ashk6qfojpcb'
+    '_csrf-backend' => '70bf425840d5caa64d49a20c962f037914186f732ff3f33d47c807ec4322a9a0a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"7odWT81rd7EiwHI7nXGu5zefSXD3mLdm\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2flogin/web/wp-includes/wlwmanifest.xml'
+    'QUERY_STRING' => 'r=site%2flogin/web/wp-includes/wlwmanifest.xml'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '62058'
+    'SCRIPT_FILENAME' => '//var/www/SPP/backend/web/index.php'
+    'SERVER_ADMIN' => '[no address given]'
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'REMOTE_ADDR' => '109.123.237.156'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.9.9'
+    'SERVER_NAME' => 'sii.valladolid.tecnm.mx'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at sii.valladolid.tecnm.mx Port 80</address>
+'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_COOKIE' => 'advanced-backend=127bvd3elss2n7ashk6qfojpcb; _csrf-backend=70bf425840d5caa64d49a20c962f037914186f732ff3f33d47c807ec4322a9a0a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%227odWT81rd7EiwHI7nXGu5zefSXD3mLdm%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_KEEP_ALIVE' => '300'
+    'HTTP_HOST' => 'sii.valladolid.tecnm.mx'
+    'proxy-nokeepalive' => '1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1672167536.3869
+    'REQUEST_TIME' => 1672167536
+]
+2022-12-27 18:58:56 [109.123.237.156][-][127bvd3elss2n7ashk6qfojpcb][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/login/wordpress/wp-includes/wlwmanifest.xml". in /var/www/SPP/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#1 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#2 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Página no encontrada. in /var/www/SPP/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#1 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2022-12-27 18:58:56 [109.123.237.156][-][127bvd3elss2n7ashk6qfojpcb][info][application] $_GET = [
+    'r' => 'site/login/wordpress/wp-includes/wlwmanifest.xml'
+]
+
+$_COOKIE = [
+    'advanced-backend' => '127bvd3elss2n7ashk6qfojpcb'
+    '_csrf-backend' => '70bf425840d5caa64d49a20c962f037914186f732ff3f33d47c807ec4322a9a0a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"7odWT81rd7EiwHI7nXGu5zefSXD3mLdm\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2flogin/wordpress/wp-includes/wlwmanifest.xml'
+    'QUERY_STRING' => 'r=site%2flogin/wordpress/wp-includes/wlwmanifest.xml'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '62058'
+    'SCRIPT_FILENAME' => '//var/www/SPP/backend/web/index.php'
+    'SERVER_ADMIN' => '[no address given]'
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'REMOTE_ADDR' => '109.123.237.156'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.9.9'
+    'SERVER_NAME' => 'sii.valladolid.tecnm.mx'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at sii.valladolid.tecnm.mx Port 80</address>
+'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_COOKIE' => 'advanced-backend=127bvd3elss2n7ashk6qfojpcb; _csrf-backend=70bf425840d5caa64d49a20c962f037914186f732ff3f33d47c807ec4322a9a0a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%227odWT81rd7EiwHI7nXGu5zefSXD3mLdm%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_KEEP_ALIVE' => '300'
+    'HTTP_HOST' => 'sii.valladolid.tecnm.mx'
+    'proxy-nokeepalive' => '1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1672167536.643
+    'REQUEST_TIME' => 1672167536
+]
+2022-12-27 18:58:56 [109.123.237.156][-][127bvd3elss2n7ashk6qfojpcb][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/login/website/wp-includes/wlwmanifest.xml". in /var/www/SPP/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#1 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#2 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Página no encontrada. in /var/www/SPP/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#1 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2022-12-27 18:58:56 [109.123.237.156][-][127bvd3elss2n7ashk6qfojpcb][info][application] $_GET = [
+    'r' => 'site/login/website/wp-includes/wlwmanifest.xml'
+]
+
+$_COOKIE = [
+    'advanced-backend' => '127bvd3elss2n7ashk6qfojpcb'
+    '_csrf-backend' => '70bf425840d5caa64d49a20c962f037914186f732ff3f33d47c807ec4322a9a0a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"7odWT81rd7EiwHI7nXGu5zefSXD3mLdm\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2flogin/website/wp-includes/wlwmanifest.xml'
+    'QUERY_STRING' => 'r=site%2flogin/website/wp-includes/wlwmanifest.xml'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '62058'
+    'SCRIPT_FILENAME' => '//var/www/SPP/backend/web/index.php'
+    'SERVER_ADMIN' => '[no address given]'
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'REMOTE_ADDR' => '109.123.237.156'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.9.9'
+    'SERVER_NAME' => 'sii.valladolid.tecnm.mx'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at sii.valladolid.tecnm.mx Port 80</address>
+'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_COOKIE' => 'advanced-backend=127bvd3elss2n7ashk6qfojpcb; _csrf-backend=70bf425840d5caa64d49a20c962f037914186f732ff3f33d47c807ec4322a9a0a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%227odWT81rd7EiwHI7nXGu5zefSXD3mLdm%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_KEEP_ALIVE' => '300'
+    'HTTP_HOST' => 'sii.valladolid.tecnm.mx'
+    'proxy-nokeepalive' => '1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1672167536.9018
+    'REQUEST_TIME' => 1672167536
+]
+2022-12-27 18:58:58 [109.123.237.156][-][127bvd3elss2n7ashk6qfojpcb][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/login/wp/wp-includes/wlwmanifest.xml". in /var/www/SPP/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#1 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#2 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Página no encontrada. in /var/www/SPP/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#1 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2022-12-27 18:58:58 [109.123.237.156][-][127bvd3elss2n7ashk6qfojpcb][info][application] $_GET = [
+    'r' => 'site/login/wp/wp-includes/wlwmanifest.xml'
+]
+
+$_COOKIE = [
+    'advanced-backend' => '127bvd3elss2n7ashk6qfojpcb'
+    '_csrf-backend' => '70bf425840d5caa64d49a20c962f037914186f732ff3f33d47c807ec4322a9a0a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"7odWT81rd7EiwHI7nXGu5zefSXD3mLdm\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2flogin/wp/wp-includes/wlwmanifest.xml'
+    'QUERY_STRING' => 'r=site%2flogin/wp/wp-includes/wlwmanifest.xml'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '62058'
+    'SCRIPT_FILENAME' => '//var/www/SPP/backend/web/index.php'
+    'SERVER_ADMIN' => '[no address given]'
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'REMOTE_ADDR' => '109.123.237.156'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.9.9'
+    'SERVER_NAME' => 'sii.valladolid.tecnm.mx'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at sii.valladolid.tecnm.mx Port 80</address>
+'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_COOKIE' => 'advanced-backend=127bvd3elss2n7ashk6qfojpcb; _csrf-backend=70bf425840d5caa64d49a20c962f037914186f732ff3f33d47c807ec4322a9a0a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%227odWT81rd7EiwHI7nXGu5zefSXD3mLdm%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_KEEP_ALIVE' => '300'
+    'HTTP_HOST' => 'sii.valladolid.tecnm.mx'
+    'proxy-nokeepalive' => '1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1672167538.0054
+    'REQUEST_TIME' => 1672167538
+]
+2022-12-27 18:58:58 [109.123.237.156][-][127bvd3elss2n7ashk6qfojpcb][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/login/news/wp-includes/wlwmanifest.xml". in /var/www/SPP/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#1 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#2 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Página no encontrada. in /var/www/SPP/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#1 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2022-12-27 18:58:58 [109.123.237.156][-][127bvd3elss2n7ashk6qfojpcb][info][application] $_GET = [
+    'r' => 'site/login/news/wp-includes/wlwmanifest.xml'
+]
+
+$_COOKIE = [
+    'advanced-backend' => '127bvd3elss2n7ashk6qfojpcb'
+    '_csrf-backend' => '70bf425840d5caa64d49a20c962f037914186f732ff3f33d47c807ec4322a9a0a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"7odWT81rd7EiwHI7nXGu5zefSXD3mLdm\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2flogin/news/wp-includes/wlwmanifest.xml'
+    'QUERY_STRING' => 'r=site%2flogin/news/wp-includes/wlwmanifest.xml'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '62058'
+    'SCRIPT_FILENAME' => '//var/www/SPP/backend/web/index.php'
+    'SERVER_ADMIN' => '[no address given]'
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'REMOTE_ADDR' => '109.123.237.156'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.9.9'
+    'SERVER_NAME' => 'sii.valladolid.tecnm.mx'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at sii.valladolid.tecnm.mx Port 80</address>
+'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_COOKIE' => 'advanced-backend=127bvd3elss2n7ashk6qfojpcb; _csrf-backend=70bf425840d5caa64d49a20c962f037914186f732ff3f33d47c807ec4322a9a0a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%227odWT81rd7EiwHI7nXGu5zefSXD3mLdm%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_KEEP_ALIVE' => '300'
+    'HTTP_HOST' => 'sii.valladolid.tecnm.mx'
+    'proxy-nokeepalive' => '1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1672167538.2649
+    'REQUEST_TIME' => 1672167538
+]
+2022-12-27 18:58:58 [109.123.237.156][-][127bvd3elss2n7ashk6qfojpcb][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/login/2018/wp-includes/wlwmanifest.xml". in /var/www/SPP/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#1 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#2 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Página no encontrada. in /var/www/SPP/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#1 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2022-12-27 18:58:58 [109.123.237.156][-][127bvd3elss2n7ashk6qfojpcb][info][application] $_GET = [
+    'r' => 'site/login/2018/wp-includes/wlwmanifest.xml'
+]
+
+$_COOKIE = [
+    'advanced-backend' => '127bvd3elss2n7ashk6qfojpcb'
+    '_csrf-backend' => '70bf425840d5caa64d49a20c962f037914186f732ff3f33d47c807ec4322a9a0a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"7odWT81rd7EiwHI7nXGu5zefSXD3mLdm\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2flogin/2018/wp-includes/wlwmanifest.xml'
+    'QUERY_STRING' => 'r=site%2flogin/2018/wp-includes/wlwmanifest.xml'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '62058'
+    'SCRIPT_FILENAME' => '//var/www/SPP/backend/web/index.php'
+    'SERVER_ADMIN' => '[no address given]'
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'REMOTE_ADDR' => '109.123.237.156'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.9.9'
+    'SERVER_NAME' => 'sii.valladolid.tecnm.mx'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at sii.valladolid.tecnm.mx Port 80</address>
+'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_COOKIE' => 'advanced-backend=127bvd3elss2n7ashk6qfojpcb; _csrf-backend=70bf425840d5caa64d49a20c962f037914186f732ff3f33d47c807ec4322a9a0a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%227odWT81rd7EiwHI7nXGu5zefSXD3mLdm%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_KEEP_ALIVE' => '300'
+    'HTTP_HOST' => 'sii.valladolid.tecnm.mx'
+    'proxy-nokeepalive' => '1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1672167538.5323
+    'REQUEST_TIME' => 1672167538
+]
+2022-12-27 18:58:58 [109.123.237.156][-][127bvd3elss2n7ashk6qfojpcb][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/login/2019/wp-includes/wlwmanifest.xml". in /var/www/SPP/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#1 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#2 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Página no encontrada. in /var/www/SPP/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#1 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2022-12-27 18:58:58 [109.123.237.156][-][127bvd3elss2n7ashk6qfojpcb][info][application] $_GET = [
+    'r' => 'site/login/2019/wp-includes/wlwmanifest.xml'
+]
+
+$_COOKIE = [
+    'advanced-backend' => '127bvd3elss2n7ashk6qfojpcb'
+    '_csrf-backend' => '70bf425840d5caa64d49a20c962f037914186f732ff3f33d47c807ec4322a9a0a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"7odWT81rd7EiwHI7nXGu5zefSXD3mLdm\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2flogin/2019/wp-includes/wlwmanifest.xml'
+    'QUERY_STRING' => 'r=site%2flogin/2019/wp-includes/wlwmanifest.xml'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '62058'
+    'SCRIPT_FILENAME' => '//var/www/SPP/backend/web/index.php'
+    'SERVER_ADMIN' => '[no address given]'
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'REMOTE_ADDR' => '109.123.237.156'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.9.9'
+    'SERVER_NAME' => 'sii.valladolid.tecnm.mx'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at sii.valladolid.tecnm.mx Port 80</address>
+'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_COOKIE' => 'advanced-backend=127bvd3elss2n7ashk6qfojpcb; _csrf-backend=70bf425840d5caa64d49a20c962f037914186f732ff3f33d47c807ec4322a9a0a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%227odWT81rd7EiwHI7nXGu5zefSXD3mLdm%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_KEEP_ALIVE' => '300'
+    'HTTP_HOST' => 'sii.valladolid.tecnm.mx'
+    'proxy-nokeepalive' => '1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1672167538.7883
+    'REQUEST_TIME' => 1672167538
+]
+2022-12-27 18:58:59 [109.123.237.156][-][127bvd3elss2n7ashk6qfojpcb][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/login/shop/wp-includes/wlwmanifest.xml". in /var/www/SPP/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#1 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#2 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Página no encontrada. in /var/www/SPP/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#1 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2022-12-27 18:58:59 [109.123.237.156][-][127bvd3elss2n7ashk6qfojpcb][info][application] $_GET = [
+    'r' => 'site/login/shop/wp-includes/wlwmanifest.xml'
+]
+
+$_COOKIE = [
+    'advanced-backend' => '127bvd3elss2n7ashk6qfojpcb'
+    '_csrf-backend' => '70bf425840d5caa64d49a20c962f037914186f732ff3f33d47c807ec4322a9a0a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"7odWT81rd7EiwHI7nXGu5zefSXD3mLdm\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2flogin/shop/wp-includes/wlwmanifest.xml'
+    'QUERY_STRING' => 'r=site%2flogin/shop/wp-includes/wlwmanifest.xml'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '62058'
+    'SCRIPT_FILENAME' => '//var/www/SPP/backend/web/index.php'
+    'SERVER_ADMIN' => '[no address given]'
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'REMOTE_ADDR' => '109.123.237.156'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.9.9'
+    'SERVER_NAME' => 'sii.valladolid.tecnm.mx'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at sii.valladolid.tecnm.mx Port 80</address>
+'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_COOKIE' => 'advanced-backend=127bvd3elss2n7ashk6qfojpcb; _csrf-backend=70bf425840d5caa64d49a20c962f037914186f732ff3f33d47c807ec4322a9a0a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%227odWT81rd7EiwHI7nXGu5zefSXD3mLdm%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_KEEP_ALIVE' => '300'
+    'HTTP_HOST' => 'sii.valladolid.tecnm.mx'
+    'proxy-nokeepalive' => '1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1672167539.0444
+    'REQUEST_TIME' => 1672167539
+]
+2022-12-27 18:58:59 [109.123.237.156][-][127bvd3elss2n7ashk6qfojpcb][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/login/wp1/wp-includes/wlwmanifest.xml". in /var/www/SPP/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#1 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#2 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Página no encontrada. in /var/www/SPP/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#1 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2022-12-27 18:58:59 [109.123.237.156][-][127bvd3elss2n7ashk6qfojpcb][info][application] $_GET = [
+    'r' => 'site/login/wp1/wp-includes/wlwmanifest.xml'
+]
+
+$_COOKIE = [
+    'advanced-backend' => '127bvd3elss2n7ashk6qfojpcb'
+    '_csrf-backend' => '70bf425840d5caa64d49a20c962f037914186f732ff3f33d47c807ec4322a9a0a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"7odWT81rd7EiwHI7nXGu5zefSXD3mLdm\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2flogin/wp1/wp-includes/wlwmanifest.xml'
+    'QUERY_STRING' => 'r=site%2flogin/wp1/wp-includes/wlwmanifest.xml'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '62058'
+    'SCRIPT_FILENAME' => '//var/www/SPP/backend/web/index.php'
+    'SERVER_ADMIN' => '[no address given]'
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'REMOTE_ADDR' => '109.123.237.156'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.9.9'
+    'SERVER_NAME' => 'sii.valladolid.tecnm.mx'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at sii.valladolid.tecnm.mx Port 80</address>
+'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_COOKIE' => 'advanced-backend=127bvd3elss2n7ashk6qfojpcb; _csrf-backend=70bf425840d5caa64d49a20c962f037914186f732ff3f33d47c807ec4322a9a0a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%227odWT81rd7EiwHI7nXGu5zefSXD3mLdm%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_KEEP_ALIVE' => '300'
+    'HTTP_HOST' => 'sii.valladolid.tecnm.mx'
+    'proxy-nokeepalive' => '1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1672167539.3006
+    'REQUEST_TIME' => 1672167539
+]
+2022-12-27 18:58:59 [109.123.237.156][-][127bvd3elss2n7ashk6qfojpcb][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/login/test/wp-includes/wlwmanifest.xml". in /var/www/SPP/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#1 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#2 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Página no encontrada. in /var/www/SPP/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#1 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2022-12-27 18:58:59 [109.123.237.156][-][127bvd3elss2n7ashk6qfojpcb][info][application] $_GET = [
+    'r' => 'site/login/test/wp-includes/wlwmanifest.xml'
+]
+
+$_COOKIE = [
+    'advanced-backend' => '127bvd3elss2n7ashk6qfojpcb'
+    '_csrf-backend' => '70bf425840d5caa64d49a20c962f037914186f732ff3f33d47c807ec4322a9a0a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"7odWT81rd7EiwHI7nXGu5zefSXD3mLdm\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2flogin/test/wp-includes/wlwmanifest.xml'
+    'QUERY_STRING' => 'r=site%2flogin/test/wp-includes/wlwmanifest.xml'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '62058'
+    'SCRIPT_FILENAME' => '//var/www/SPP/backend/web/index.php'
+    'SERVER_ADMIN' => '[no address given]'
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'REMOTE_ADDR' => '109.123.237.156'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.9.9'
+    'SERVER_NAME' => 'sii.valladolid.tecnm.mx'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at sii.valladolid.tecnm.mx Port 80</address>
+'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_COOKIE' => 'advanced-backend=127bvd3elss2n7ashk6qfojpcb; _csrf-backend=70bf425840d5caa64d49a20c962f037914186f732ff3f33d47c807ec4322a9a0a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%227odWT81rd7EiwHI7nXGu5zefSXD3mLdm%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_KEEP_ALIVE' => '300'
+    'HTTP_HOST' => 'sii.valladolid.tecnm.mx'
+    'proxy-nokeepalive' => '1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1672167539.5566
+    'REQUEST_TIME' => 1672167539
+]
+2022-12-27 18:58:59 [109.123.237.156][-][127bvd3elss2n7ashk6qfojpcb][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/login/media/wp-includes/wlwmanifest.xml". in /var/www/SPP/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#1 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#2 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Página no encontrada. in /var/www/SPP/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#1 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2022-12-27 18:58:59 [109.123.237.156][-][127bvd3elss2n7ashk6qfojpcb][info][application] $_GET = [
+    'r' => 'site/login/media/wp-includes/wlwmanifest.xml'
+]
+
+$_COOKIE = [
+    'advanced-backend' => '127bvd3elss2n7ashk6qfojpcb'
+    '_csrf-backend' => '70bf425840d5caa64d49a20c962f037914186f732ff3f33d47c807ec4322a9a0a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"7odWT81rd7EiwHI7nXGu5zefSXD3mLdm\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2flogin/media/wp-includes/wlwmanifest.xml'
+    'QUERY_STRING' => 'r=site%2flogin/media/wp-includes/wlwmanifest.xml'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '62058'
+    'SCRIPT_FILENAME' => '//var/www/SPP/backend/web/index.php'
+    'SERVER_ADMIN' => '[no address given]'
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'REMOTE_ADDR' => '109.123.237.156'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.9.9'
+    'SERVER_NAME' => 'sii.valladolid.tecnm.mx'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at sii.valladolid.tecnm.mx Port 80</address>
+'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_COOKIE' => 'advanced-backend=127bvd3elss2n7ashk6qfojpcb; _csrf-backend=70bf425840d5caa64d49a20c962f037914186f732ff3f33d47c807ec4322a9a0a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%227odWT81rd7EiwHI7nXGu5zefSXD3mLdm%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_KEEP_ALIVE' => '300'
+    'HTTP_HOST' => 'sii.valladolid.tecnm.mx'
+    'proxy-nokeepalive' => '1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1672167539.8134
+    'REQUEST_TIME' => 1672167539
+]
+2022-12-27 18:59:00 [109.123.237.156][-][127bvd3elss2n7ashk6qfojpcb][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/login/wp2/wp-includes/wlwmanifest.xml". in /var/www/SPP/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#1 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#2 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Página no encontrada. in /var/www/SPP/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#1 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2022-12-27 18:59:00 [109.123.237.156][-][127bvd3elss2n7ashk6qfojpcb][info][application] $_GET = [
+    'r' => 'site/login/wp2/wp-includes/wlwmanifest.xml'
+]
+
+$_COOKIE = [
+    'advanced-backend' => '127bvd3elss2n7ashk6qfojpcb'
+    '_csrf-backend' => '70bf425840d5caa64d49a20c962f037914186f732ff3f33d47c807ec4322a9a0a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"7odWT81rd7EiwHI7nXGu5zefSXD3mLdm\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2flogin/wp2/wp-includes/wlwmanifest.xml'
+    'QUERY_STRING' => 'r=site%2flogin/wp2/wp-includes/wlwmanifest.xml'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '62058'
+    'SCRIPT_FILENAME' => '//var/www/SPP/backend/web/index.php'
+    'SERVER_ADMIN' => '[no address given]'
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'REMOTE_ADDR' => '109.123.237.156'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.9.9'
+    'SERVER_NAME' => 'sii.valladolid.tecnm.mx'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at sii.valladolid.tecnm.mx Port 80</address>
+'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_COOKIE' => 'advanced-backend=127bvd3elss2n7ashk6qfojpcb; _csrf-backend=70bf425840d5caa64d49a20c962f037914186f732ff3f33d47c807ec4322a9a0a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%227odWT81rd7EiwHI7nXGu5zefSXD3mLdm%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_KEEP_ALIVE' => '300'
+    'HTTP_HOST' => 'sii.valladolid.tecnm.mx'
+    'proxy-nokeepalive' => '1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1672167540.0693
+    'REQUEST_TIME' => 1672167540
+]
+2022-12-27 18:59:00 [109.123.237.156][-][127bvd3elss2n7ashk6qfojpcb][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/login/site/wp-includes/wlwmanifest.xml". in /var/www/SPP/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#1 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#2 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Página no encontrada. in /var/www/SPP/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#1 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2022-12-27 18:59:00 [109.123.237.156][-][127bvd3elss2n7ashk6qfojpcb][info][application] $_GET = [
+    'r' => 'site/login/site/wp-includes/wlwmanifest.xml'
+]
+
+$_COOKIE = [
+    'advanced-backend' => '127bvd3elss2n7ashk6qfojpcb'
+    '_csrf-backend' => '70bf425840d5caa64d49a20c962f037914186f732ff3f33d47c807ec4322a9a0a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"7odWT81rd7EiwHI7nXGu5zefSXD3mLdm\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2flogin/site/wp-includes/wlwmanifest.xml'
+    'QUERY_STRING' => 'r=site%2flogin/site/wp-includes/wlwmanifest.xml'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '62058'
+    'SCRIPT_FILENAME' => '//var/www/SPP/backend/web/index.php'
+    'SERVER_ADMIN' => '[no address given]'
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'REMOTE_ADDR' => '109.123.237.156'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.9.9'
+    'SERVER_NAME' => 'sii.valladolid.tecnm.mx'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at sii.valladolid.tecnm.mx Port 80</address>
+'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_COOKIE' => 'advanced-backend=127bvd3elss2n7ashk6qfojpcb; _csrf-backend=70bf425840d5caa64d49a20c962f037914186f732ff3f33d47c807ec4322a9a0a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%227odWT81rd7EiwHI7nXGu5zefSXD3mLdm%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_KEEP_ALIVE' => '300'
+    'HTTP_HOST' => 'sii.valladolid.tecnm.mx'
+    'proxy-nokeepalive' => '1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1672167540.3308
+    'REQUEST_TIME' => 1672167540
+]
+2022-12-27 18:59:00 [109.123.237.156][-][127bvd3elss2n7ashk6qfojpcb][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/login/cms/wp-includes/wlwmanifest.xml". in /var/www/SPP/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#1 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#2 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Página no encontrada. in /var/www/SPP/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#1 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2022-12-27 18:59:00 [109.123.237.156][-][127bvd3elss2n7ashk6qfojpcb][info][application] $_GET = [
+    'r' => 'site/login/cms/wp-includes/wlwmanifest.xml'
+]
+
+$_COOKIE = [
+    'advanced-backend' => '127bvd3elss2n7ashk6qfojpcb'
+    '_csrf-backend' => '70bf425840d5caa64d49a20c962f037914186f732ff3f33d47c807ec4322a9a0a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"7odWT81rd7EiwHI7nXGu5zefSXD3mLdm\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2flogin/cms/wp-includes/wlwmanifest.xml'
+    'QUERY_STRING' => 'r=site%2flogin/cms/wp-includes/wlwmanifest.xml'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '62058'
+    'SCRIPT_FILENAME' => '//var/www/SPP/backend/web/index.php'
+    'SERVER_ADMIN' => '[no address given]'
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'REMOTE_ADDR' => '109.123.237.156'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.9.9'
+    'SERVER_NAME' => 'sii.valladolid.tecnm.mx'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at sii.valladolid.tecnm.mx Port 80</address>
+'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_COOKIE' => 'advanced-backend=127bvd3elss2n7ashk6qfojpcb; _csrf-backend=70bf425840d5caa64d49a20c962f037914186f732ff3f33d47c807ec4322a9a0a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%227odWT81rd7EiwHI7nXGu5zefSXD3mLdm%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_KEEP_ALIVE' => '300'
+    'HTTP_HOST' => 'sii.valladolid.tecnm.mx'
+    'proxy-nokeepalive' => '1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1672167540.59
+    'REQUEST_TIME' => 1672167540
+]
+2022-12-27 18:59:00 [109.123.237.156][-][127bvd3elss2n7ashk6qfojpcb][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/login/sito/wp-includes/wlwmanifest.xml". in /var/www/SPP/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#1 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#2 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Página no encontrada. in /var/www/SPP/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#1 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2022-12-27 18:59:00 [109.123.237.156][-][127bvd3elss2n7ashk6qfojpcb][info][application] $_GET = [
+    'r' => 'site/login/sito/wp-includes/wlwmanifest.xml'
+]
+
+$_COOKIE = [
+    'advanced-backend' => '127bvd3elss2n7ashk6qfojpcb'
+    '_csrf-backend' => '70bf425840d5caa64d49a20c962f037914186f732ff3f33d47c807ec4322a9a0a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"7odWT81rd7EiwHI7nXGu5zefSXD3mLdm\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2flogin/sito/wp-includes/wlwmanifest.xml'
+    'QUERY_STRING' => 'r=site%2flogin/sito/wp-includes/wlwmanifest.xml'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '62058'
+    'SCRIPT_FILENAME' => '//var/www/SPP/backend/web/index.php'
+    'SERVER_ADMIN' => '[no address given]'
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'REMOTE_ADDR' => '109.123.237.156'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.9.9'
+    'SERVER_NAME' => 'sii.valladolid.tecnm.mx'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at sii.valladolid.tecnm.mx Port 80</address>
+'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_COOKIE' => 'advanced-backend=127bvd3elss2n7ashk6qfojpcb; _csrf-backend=70bf425840d5caa64d49a20c962f037914186f732ff3f33d47c807ec4322a9a0a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%227odWT81rd7EiwHI7nXGu5zefSXD3mLdm%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_KEEP_ALIVE' => '300'
+    'HTTP_HOST' => 'sii.valladolid.tecnm.mx'
+    'proxy-nokeepalive' => '1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1672167540.8464
+    'REQUEST_TIME' => 1672167540
+]
+2023-01-01 00:45:00 [109.123.237.156][-][rlgneqdt8gd72dum4047emnoje][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/login/wp-includes/wlwmanifest.xml". in /var/www/SPP/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#1 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#2 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Página no encontrada. in /var/www/SPP/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#1 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2023-01-01 00:45:00 [109.123.237.156][-][rlgneqdt8gd72dum4047emnoje][info][application] $_GET = [
+    'r' => 'site/login/wp-includes/wlwmanifest.xml'
+]
+
+$_COOKIE = [
+    'advanced-backend' => 'rlgneqdt8gd72dum4047emnoje'
+    '_csrf-backend' => 'f0a1a6daa954a7debb8f0fee2ce02386cb0e1530bcefca5b9a7565bf8c663ce6a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"2_kiTBRdUIvXcYVzL-UJJVHnd8r4wx_f\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2flogin/wp-includes/wlwmanifest.xml'
+    'QUERY_STRING' => 'r=site%2flogin/wp-includes/wlwmanifest.xml'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '63304'
+    'SCRIPT_FILENAME' => '//var/www/SPP/backend/web/index.php'
+    'SERVER_ADMIN' => '[no address given]'
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'REMOTE_ADDR' => '109.123.237.156'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.9.9'
+    'SERVER_NAME' => 'sii.valladolid.tecnm.mx'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at sii.valladolid.tecnm.mx Port 80</address>
+'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_COOKIE' => 'advanced-backend=rlgneqdt8gd72dum4047emnoje; _csrf-backend=f0a1a6daa954a7debb8f0fee2ce02386cb0e1530bcefca5b9a7565bf8c663ce6a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%222_kiTBRdUIvXcYVzL-UJJVHnd8r4wx_f%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_KEEP_ALIVE' => '300'
+    'HTTP_HOST' => 'sii.valladolid.tecnm.mx'
+    'proxy-nokeepalive' => '1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1672533900.1211
+    'REQUEST_TIME' => 1672533900
+]
+2023-01-01 00:45:00 [109.123.237.156][-][rlgneqdt8gd72dum4047emnoje][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/login/xmlrpc.php?rsd". in /var/www/SPP/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#1 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#2 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Página no encontrada. in /var/www/SPP/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#1 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2023-01-01 00:45:00 [109.123.237.156][-][rlgneqdt8gd72dum4047emnoje][info][application] $_GET = [
+    'r' => 'site/login/xmlrpc.php?rsd'
+]
+
+$_COOKIE = [
+    'advanced-backend' => 'rlgneqdt8gd72dum4047emnoje'
+    '_csrf-backend' => 'f0a1a6daa954a7debb8f0fee2ce02386cb0e1530bcefca5b9a7565bf8c663ce6a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"2_kiTBRdUIvXcYVzL-UJJVHnd8r4wx_f\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2flogin/xmlrpc.php?rsd'
+    'QUERY_STRING' => 'r=site%2flogin/xmlrpc.php?rsd'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '63304'
+    'SCRIPT_FILENAME' => '//var/www/SPP/backend/web/index.php'
+    'SERVER_ADMIN' => '[no address given]'
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'REMOTE_ADDR' => '109.123.237.156'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.9.9'
+    'SERVER_NAME' => 'sii.valladolid.tecnm.mx'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at sii.valladolid.tecnm.mx Port 80</address>
+'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_COOKIE' => 'advanced-backend=rlgneqdt8gd72dum4047emnoje; _csrf-backend=f0a1a6daa954a7debb8f0fee2ce02386cb0e1530bcefca5b9a7565bf8c663ce6a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%222_kiTBRdUIvXcYVzL-UJJVHnd8r4wx_f%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_KEEP_ALIVE' => '300'
+    'HTTP_HOST' => 'sii.valladolid.tecnm.mx'
+    'proxy-nokeepalive' => '1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1672533900.5967
+    'REQUEST_TIME' => 1672533900
+]
+2023-01-01 00:45:01 [109.123.237.156][-][rlgneqdt8gd72dum4047emnoje][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/login/blog/wp-includes/wlwmanifest.xml". in /var/www/SPP/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#1 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#2 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Página no encontrada. in /var/www/SPP/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#1 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2023-01-01 00:45:01 [109.123.237.156][-][rlgneqdt8gd72dum4047emnoje][info][application] $_GET = [
+    'r' => 'site/login/blog/wp-includes/wlwmanifest.xml'
+]
+
+$_COOKIE = [
+    'advanced-backend' => 'rlgneqdt8gd72dum4047emnoje'
+    '_csrf-backend' => 'f0a1a6daa954a7debb8f0fee2ce02386cb0e1530bcefca5b9a7565bf8c663ce6a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"2_kiTBRdUIvXcYVzL-UJJVHnd8r4wx_f\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2flogin/blog/wp-includes/wlwmanifest.xml'
+    'QUERY_STRING' => 'r=site%2flogin/blog/wp-includes/wlwmanifest.xml'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '63304'
+    'SCRIPT_FILENAME' => '//var/www/SPP/backend/web/index.php'
+    'SERVER_ADMIN' => '[no address given]'
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'REMOTE_ADDR' => '109.123.237.156'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.9.9'
+    'SERVER_NAME' => 'sii.valladolid.tecnm.mx'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at sii.valladolid.tecnm.mx Port 80</address>
+'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_COOKIE' => 'advanced-backend=rlgneqdt8gd72dum4047emnoje; _csrf-backend=f0a1a6daa954a7debb8f0fee2ce02386cb0e1530bcefca5b9a7565bf8c663ce6a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%222_kiTBRdUIvXcYVzL-UJJVHnd8r4wx_f%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_KEEP_ALIVE' => '300'
+    'HTTP_HOST' => 'sii.valladolid.tecnm.mx'
+    'proxy-nokeepalive' => '1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1672533901.4982
+    'REQUEST_TIME' => 1672533901
+]
+2023-01-01 00:45:01 [109.123.237.156][-][rlgneqdt8gd72dum4047emnoje][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/login/web/wp-includes/wlwmanifest.xml". in /var/www/SPP/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#1 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#2 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Página no encontrada. in /var/www/SPP/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#1 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2023-01-01 00:45:01 [109.123.237.156][-][rlgneqdt8gd72dum4047emnoje][info][application] $_GET = [
+    'r' => 'site/login/web/wp-includes/wlwmanifest.xml'
+]
+
+$_COOKIE = [
+    'advanced-backend' => 'rlgneqdt8gd72dum4047emnoje'
+    '_csrf-backend' => 'f0a1a6daa954a7debb8f0fee2ce02386cb0e1530bcefca5b9a7565bf8c663ce6a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"2_kiTBRdUIvXcYVzL-UJJVHnd8r4wx_f\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2flogin/web/wp-includes/wlwmanifest.xml'
+    'QUERY_STRING' => 'r=site%2flogin/web/wp-includes/wlwmanifest.xml'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '63304'
+    'SCRIPT_FILENAME' => '//var/www/SPP/backend/web/index.php'
+    'SERVER_ADMIN' => '[no address given]'
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'REMOTE_ADDR' => '109.123.237.156'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.9.9'
+    'SERVER_NAME' => 'sii.valladolid.tecnm.mx'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at sii.valladolid.tecnm.mx Port 80</address>
+'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_COOKIE' => 'advanced-backend=rlgneqdt8gd72dum4047emnoje; _csrf-backend=f0a1a6daa954a7debb8f0fee2ce02386cb0e1530bcefca5b9a7565bf8c663ce6a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%222_kiTBRdUIvXcYVzL-UJJVHnd8r4wx_f%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_KEEP_ALIVE' => '300'
+    'HTTP_HOST' => 'sii.valladolid.tecnm.mx'
+    'proxy-nokeepalive' => '1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1672533901.9139
+    'REQUEST_TIME' => 1672533901
+]
+2023-01-01 00:45:02 [109.123.237.156][-][rlgneqdt8gd72dum4047emnoje][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/login/wordpress/wp-includes/wlwmanifest.xml". in /var/www/SPP/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#1 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#2 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Página no encontrada. in /var/www/SPP/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#1 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2023-01-01 00:45:02 [109.123.237.156][-][rlgneqdt8gd72dum4047emnoje][info][application] $_GET = [
+    'r' => 'site/login/wordpress/wp-includes/wlwmanifest.xml'
+]
+
+$_COOKIE = [
+    'advanced-backend' => 'rlgneqdt8gd72dum4047emnoje'
+    '_csrf-backend' => 'f0a1a6daa954a7debb8f0fee2ce02386cb0e1530bcefca5b9a7565bf8c663ce6a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"2_kiTBRdUIvXcYVzL-UJJVHnd8r4wx_f\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2flogin/wordpress/wp-includes/wlwmanifest.xml'
+    'QUERY_STRING' => 'r=site%2flogin/wordpress/wp-includes/wlwmanifest.xml'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '63304'
+    'SCRIPT_FILENAME' => '//var/www/SPP/backend/web/index.php'
+    'SERVER_ADMIN' => '[no address given]'
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'REMOTE_ADDR' => '109.123.237.156'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.9.9'
+    'SERVER_NAME' => 'sii.valladolid.tecnm.mx'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at sii.valladolid.tecnm.mx Port 80</address>
+'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_COOKIE' => 'advanced-backend=rlgneqdt8gd72dum4047emnoje; _csrf-backend=f0a1a6daa954a7debb8f0fee2ce02386cb0e1530bcefca5b9a7565bf8c663ce6a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%222_kiTBRdUIvXcYVzL-UJJVHnd8r4wx_f%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_KEEP_ALIVE' => '300'
+    'HTTP_HOST' => 'sii.valladolid.tecnm.mx'
+    'proxy-nokeepalive' => '1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1672533902.4197
+    'REQUEST_TIME' => 1672533902
+]
+2023-01-01 00:45:02 [109.123.237.156][-][rlgneqdt8gd72dum4047emnoje][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/login/website/wp-includes/wlwmanifest.xml". in /var/www/SPP/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#1 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#2 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Página no encontrada. in /var/www/SPP/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#1 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2023-01-01 00:45:02 [109.123.237.156][-][rlgneqdt8gd72dum4047emnoje][info][application] $_GET = [
+    'r' => 'site/login/website/wp-includes/wlwmanifest.xml'
+]
+
+$_COOKIE = [
+    'advanced-backend' => 'rlgneqdt8gd72dum4047emnoje'
+    '_csrf-backend' => 'f0a1a6daa954a7debb8f0fee2ce02386cb0e1530bcefca5b9a7565bf8c663ce6a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"2_kiTBRdUIvXcYVzL-UJJVHnd8r4wx_f\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2flogin/website/wp-includes/wlwmanifest.xml'
+    'QUERY_STRING' => 'r=site%2flogin/website/wp-includes/wlwmanifest.xml'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '63304'
+    'SCRIPT_FILENAME' => '//var/www/SPP/backend/web/index.php'
+    'SERVER_ADMIN' => '[no address given]'
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'REMOTE_ADDR' => '109.123.237.156'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.9.9'
+    'SERVER_NAME' => 'sii.valladolid.tecnm.mx'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at sii.valladolid.tecnm.mx Port 80</address>
+'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_COOKIE' => 'advanced-backend=rlgneqdt8gd72dum4047emnoje; _csrf-backend=f0a1a6daa954a7debb8f0fee2ce02386cb0e1530bcefca5b9a7565bf8c663ce6a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%222_kiTBRdUIvXcYVzL-UJJVHnd8r4wx_f%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_KEEP_ALIVE' => '300'
+    'HTTP_HOST' => 'sii.valladolid.tecnm.mx'
+    'proxy-nokeepalive' => '1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1672533902.8206
+    'REQUEST_TIME' => 1672533902
+]
+2023-01-01 00:45:03 [109.123.237.156][-][rlgneqdt8gd72dum4047emnoje][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/login/wp/wp-includes/wlwmanifest.xml". in /var/www/SPP/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#1 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#2 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Página no encontrada. in /var/www/SPP/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#1 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2023-01-01 00:45:03 [109.123.237.156][-][rlgneqdt8gd72dum4047emnoje][info][application] $_GET = [
+    'r' => 'site/login/wp/wp-includes/wlwmanifest.xml'
+]
+
+$_COOKIE = [
+    'advanced-backend' => 'rlgneqdt8gd72dum4047emnoje'
+    '_csrf-backend' => 'f0a1a6daa954a7debb8f0fee2ce02386cb0e1530bcefca5b9a7565bf8c663ce6a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"2_kiTBRdUIvXcYVzL-UJJVHnd8r4wx_f\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2flogin/wp/wp-includes/wlwmanifest.xml'
+    'QUERY_STRING' => 'r=site%2flogin/wp/wp-includes/wlwmanifest.xml'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '63304'
+    'SCRIPT_FILENAME' => '//var/www/SPP/backend/web/index.php'
+    'SERVER_ADMIN' => '[no address given]'
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'REMOTE_ADDR' => '109.123.237.156'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.9.9'
+    'SERVER_NAME' => 'sii.valladolid.tecnm.mx'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at sii.valladolid.tecnm.mx Port 80</address>
+'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_COOKIE' => 'advanced-backend=rlgneqdt8gd72dum4047emnoje; _csrf-backend=f0a1a6daa954a7debb8f0fee2ce02386cb0e1530bcefca5b9a7565bf8c663ce6a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%222_kiTBRdUIvXcYVzL-UJJVHnd8r4wx_f%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_KEEP_ALIVE' => '300'
+    'HTTP_HOST' => 'sii.valladolid.tecnm.mx'
+    'proxy-nokeepalive' => '1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1672533903.3415
+    'REQUEST_TIME' => 1672533903
+]
+2023-01-01 00:45:04 [109.123.237.156][-][rlgneqdt8gd72dum4047emnoje][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/login/news/wp-includes/wlwmanifest.xml". in /var/www/SPP/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#1 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#2 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Página no encontrada. in /var/www/SPP/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#1 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2023-01-01 00:45:04 [109.123.237.156][-][rlgneqdt8gd72dum4047emnoje][info][application] $_GET = [
+    'r' => 'site/login/news/wp-includes/wlwmanifest.xml'
+]
+
+$_COOKIE = [
+    'advanced-backend' => 'rlgneqdt8gd72dum4047emnoje'
+    '_csrf-backend' => 'f0a1a6daa954a7debb8f0fee2ce02386cb0e1530bcefca5b9a7565bf8c663ce6a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"2_kiTBRdUIvXcYVzL-UJJVHnd8r4wx_f\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2flogin/news/wp-includes/wlwmanifest.xml'
+    'QUERY_STRING' => 'r=site%2flogin/news/wp-includes/wlwmanifest.xml'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '63304'
+    'SCRIPT_FILENAME' => '//var/www/SPP/backend/web/index.php'
+    'SERVER_ADMIN' => '[no address given]'
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'REMOTE_ADDR' => '109.123.237.156'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.9.9'
+    'SERVER_NAME' => 'sii.valladolid.tecnm.mx'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at sii.valladolid.tecnm.mx Port 80</address>
+'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_COOKIE' => 'advanced-backend=rlgneqdt8gd72dum4047emnoje; _csrf-backend=f0a1a6daa954a7debb8f0fee2ce02386cb0e1530bcefca5b9a7565bf8c663ce6a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%222_kiTBRdUIvXcYVzL-UJJVHnd8r4wx_f%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_KEEP_ALIVE' => '300'
+    'HTTP_HOST' => 'sii.valladolid.tecnm.mx'
+    'proxy-nokeepalive' => '1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1672533904.1179
+    'REQUEST_TIME' => 1672533904
+]
+2023-01-01 00:45:04 [109.123.237.156][-][rlgneqdt8gd72dum4047emnoje][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/login/2018/wp-includes/wlwmanifest.xml". in /var/www/SPP/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#1 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#2 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Página no encontrada. in /var/www/SPP/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#1 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2023-01-01 00:45:04 [109.123.237.156][-][rlgneqdt8gd72dum4047emnoje][info][application] $_GET = [
+    'r' => 'site/login/2018/wp-includes/wlwmanifest.xml'
+]
+
+$_COOKIE = [
+    'advanced-backend' => 'rlgneqdt8gd72dum4047emnoje'
+    '_csrf-backend' => 'f0a1a6daa954a7debb8f0fee2ce02386cb0e1530bcefca5b9a7565bf8c663ce6a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"2_kiTBRdUIvXcYVzL-UJJVHnd8r4wx_f\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2flogin/2018/wp-includes/wlwmanifest.xml'
+    'QUERY_STRING' => 'r=site%2flogin/2018/wp-includes/wlwmanifest.xml'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '63304'
+    'SCRIPT_FILENAME' => '//var/www/SPP/backend/web/index.php'
+    'SERVER_ADMIN' => '[no address given]'
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'REMOTE_ADDR' => '109.123.237.156'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.9.9'
+    'SERVER_NAME' => 'sii.valladolid.tecnm.mx'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at sii.valladolid.tecnm.mx Port 80</address>
+'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_COOKIE' => 'advanced-backend=rlgneqdt8gd72dum4047emnoje; _csrf-backend=f0a1a6daa954a7debb8f0fee2ce02386cb0e1530bcefca5b9a7565bf8c663ce6a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%222_kiTBRdUIvXcYVzL-UJJVHnd8r4wx_f%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_KEEP_ALIVE' => '300'
+    'HTTP_HOST' => 'sii.valladolid.tecnm.mx'
+    'proxy-nokeepalive' => '1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1672533904.5411
+    'REQUEST_TIME' => 1672533904
+]
+2023-01-01 00:45:05 [109.123.237.156][-][rlgneqdt8gd72dum4047emnoje][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/login/2019/wp-includes/wlwmanifest.xml". in /var/www/SPP/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#1 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#2 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Página no encontrada. in /var/www/SPP/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#1 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2023-01-01 00:45:05 [109.123.237.156][-][rlgneqdt8gd72dum4047emnoje][info][application] $_GET = [
+    'r' => 'site/login/2019/wp-includes/wlwmanifest.xml'
+]
+
+$_COOKIE = [
+    'advanced-backend' => 'rlgneqdt8gd72dum4047emnoje'
+    '_csrf-backend' => 'f0a1a6daa954a7debb8f0fee2ce02386cb0e1530bcefca5b9a7565bf8c663ce6a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"2_kiTBRdUIvXcYVzL-UJJVHnd8r4wx_f\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2flogin/2019/wp-includes/wlwmanifest.xml'
+    'QUERY_STRING' => 'r=site%2flogin/2019/wp-includes/wlwmanifest.xml'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '63304'
+    'SCRIPT_FILENAME' => '//var/www/SPP/backend/web/index.php'
+    'SERVER_ADMIN' => '[no address given]'
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'REMOTE_ADDR' => '109.123.237.156'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.9.9'
+    'SERVER_NAME' => 'sii.valladolid.tecnm.mx'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at sii.valladolid.tecnm.mx Port 80</address>
+'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_COOKIE' => 'advanced-backend=rlgneqdt8gd72dum4047emnoje; _csrf-backend=f0a1a6daa954a7debb8f0fee2ce02386cb0e1530bcefca5b9a7565bf8c663ce6a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%222_kiTBRdUIvXcYVzL-UJJVHnd8r4wx_f%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_KEEP_ALIVE' => '300'
+    'HTTP_HOST' => 'sii.valladolid.tecnm.mx'
+    'proxy-nokeepalive' => '1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1672533905.1284
+    'REQUEST_TIME' => 1672533905
+]
+2023-01-01 00:45:05 [109.123.237.156][-][rlgneqdt8gd72dum4047emnoje][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/login/shop/wp-includes/wlwmanifest.xml". in /var/www/SPP/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#1 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#2 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Página no encontrada. in /var/www/SPP/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#1 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2023-01-01 00:45:05 [109.123.237.156][-][rlgneqdt8gd72dum4047emnoje][info][application] $_GET = [
+    'r' => 'site/login/shop/wp-includes/wlwmanifest.xml'
+]
+
+$_COOKIE = [
+    'advanced-backend' => 'rlgneqdt8gd72dum4047emnoje'
+    '_csrf-backend' => 'f0a1a6daa954a7debb8f0fee2ce02386cb0e1530bcefca5b9a7565bf8c663ce6a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"2_kiTBRdUIvXcYVzL-UJJVHnd8r4wx_f\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2flogin/shop/wp-includes/wlwmanifest.xml'
+    'QUERY_STRING' => 'r=site%2flogin/shop/wp-includes/wlwmanifest.xml'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '63304'
+    'SCRIPT_FILENAME' => '//var/www/SPP/backend/web/index.php'
+    'SERVER_ADMIN' => '[no address given]'
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'REMOTE_ADDR' => '109.123.237.156'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.9.9'
+    'SERVER_NAME' => 'sii.valladolid.tecnm.mx'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at sii.valladolid.tecnm.mx Port 80</address>
+'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_COOKIE' => 'advanced-backend=rlgneqdt8gd72dum4047emnoje; _csrf-backend=f0a1a6daa954a7debb8f0fee2ce02386cb0e1530bcefca5b9a7565bf8c663ce6a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%222_kiTBRdUIvXcYVzL-UJJVHnd8r4wx_f%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_KEEP_ALIVE' => '300'
+    'HTTP_HOST' => 'sii.valladolid.tecnm.mx'
+    'proxy-nokeepalive' => '1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1672533905.5251
+    'REQUEST_TIME' => 1672533905
+]
+2023-01-01 00:45:06 [109.123.237.156][-][rlgneqdt8gd72dum4047emnoje][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/login/wp1/wp-includes/wlwmanifest.xml". in /var/www/SPP/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#1 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#2 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Página no encontrada. in /var/www/SPP/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#1 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2023-01-01 00:45:06 [109.123.237.156][-][rlgneqdt8gd72dum4047emnoje][info][application] $_GET = [
+    'r' => 'site/login/wp1/wp-includes/wlwmanifest.xml'
+]
+
+$_COOKIE = [
+    'advanced-backend' => 'rlgneqdt8gd72dum4047emnoje'
+    '_csrf-backend' => 'f0a1a6daa954a7debb8f0fee2ce02386cb0e1530bcefca5b9a7565bf8c663ce6a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"2_kiTBRdUIvXcYVzL-UJJVHnd8r4wx_f\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2flogin/wp1/wp-includes/wlwmanifest.xml'
+    'QUERY_STRING' => 'r=site%2flogin/wp1/wp-includes/wlwmanifest.xml'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '63304'
+    'SCRIPT_FILENAME' => '//var/www/SPP/backend/web/index.php'
+    'SERVER_ADMIN' => '[no address given]'
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'REMOTE_ADDR' => '109.123.237.156'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.9.9'
+    'SERVER_NAME' => 'sii.valladolid.tecnm.mx'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at sii.valladolid.tecnm.mx Port 80</address>
+'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_COOKIE' => 'advanced-backend=rlgneqdt8gd72dum4047emnoje; _csrf-backend=f0a1a6daa954a7debb8f0fee2ce02386cb0e1530bcefca5b9a7565bf8c663ce6a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%222_kiTBRdUIvXcYVzL-UJJVHnd8r4wx_f%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_KEEP_ALIVE' => '300'
+    'HTTP_HOST' => 'sii.valladolid.tecnm.mx'
+    'proxy-nokeepalive' => '1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1672533906.0144
+    'REQUEST_TIME' => 1672533906
+]
+2023-01-01 00:45:06 [109.123.237.156][-][rlgneqdt8gd72dum4047emnoje][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/login/test/wp-includes/wlwmanifest.xml". in /var/www/SPP/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#1 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#2 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Página no encontrada. in /var/www/SPP/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#1 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2023-01-01 00:45:06 [109.123.237.156][-][rlgneqdt8gd72dum4047emnoje][info][application] $_GET = [
+    'r' => 'site/login/test/wp-includes/wlwmanifest.xml'
+]
+
+$_COOKIE = [
+    'advanced-backend' => 'rlgneqdt8gd72dum4047emnoje'
+    '_csrf-backend' => 'f0a1a6daa954a7debb8f0fee2ce02386cb0e1530bcefca5b9a7565bf8c663ce6a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"2_kiTBRdUIvXcYVzL-UJJVHnd8r4wx_f\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2flogin/test/wp-includes/wlwmanifest.xml'
+    'QUERY_STRING' => 'r=site%2flogin/test/wp-includes/wlwmanifest.xml'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '63304'
+    'SCRIPT_FILENAME' => '//var/www/SPP/backend/web/index.php'
+    'SERVER_ADMIN' => '[no address given]'
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'REMOTE_ADDR' => '109.123.237.156'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.9.9'
+    'SERVER_NAME' => 'sii.valladolid.tecnm.mx'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at sii.valladolid.tecnm.mx Port 80</address>
+'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_COOKIE' => 'advanced-backend=rlgneqdt8gd72dum4047emnoje; _csrf-backend=f0a1a6daa954a7debb8f0fee2ce02386cb0e1530bcefca5b9a7565bf8c663ce6a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%222_kiTBRdUIvXcYVzL-UJJVHnd8r4wx_f%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_KEEP_ALIVE' => '300'
+    'HTTP_HOST' => 'sii.valladolid.tecnm.mx'
+    'proxy-nokeepalive' => '1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1672533906.6121
+    'REQUEST_TIME' => 1672533906
+]
+2023-01-01 00:45:06 [109.123.237.156][-][rlgneqdt8gd72dum4047emnoje][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/login/media/wp-includes/wlwmanifest.xml". in /var/www/SPP/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#1 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#2 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Página no encontrada. in /var/www/SPP/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#1 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2023-01-01 00:45:06 [109.123.237.156][-][rlgneqdt8gd72dum4047emnoje][info][application] $_GET = [
+    'r' => 'site/login/media/wp-includes/wlwmanifest.xml'
+]
+
+$_COOKIE = [
+    'advanced-backend' => 'rlgneqdt8gd72dum4047emnoje'
+    '_csrf-backend' => 'f0a1a6daa954a7debb8f0fee2ce02386cb0e1530bcefca5b9a7565bf8c663ce6a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"2_kiTBRdUIvXcYVzL-UJJVHnd8r4wx_f\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2flogin/media/wp-includes/wlwmanifest.xml'
+    'QUERY_STRING' => 'r=site%2flogin/media/wp-includes/wlwmanifest.xml'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '63304'
+    'SCRIPT_FILENAME' => '//var/www/SPP/backend/web/index.php'
+    'SERVER_ADMIN' => '[no address given]'
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'REMOTE_ADDR' => '109.123.237.156'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.9.9'
+    'SERVER_NAME' => 'sii.valladolid.tecnm.mx'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at sii.valladolid.tecnm.mx Port 80</address>
+'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_COOKIE' => 'advanced-backend=rlgneqdt8gd72dum4047emnoje; _csrf-backend=f0a1a6daa954a7debb8f0fee2ce02386cb0e1530bcefca5b9a7565bf8c663ce6a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%222_kiTBRdUIvXcYVzL-UJJVHnd8r4wx_f%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_KEEP_ALIVE' => '300'
+    'HTTP_HOST' => 'sii.valladolid.tecnm.mx'
+    'proxy-nokeepalive' => '1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1672533906.9404
+    'REQUEST_TIME' => 1672533906
+]
+2023-01-01 00:45:07 [109.123.237.156][-][rlgneqdt8gd72dum4047emnoje][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/login/wp2/wp-includes/wlwmanifest.xml". in /var/www/SPP/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#1 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#2 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Página no encontrada. in /var/www/SPP/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#1 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2023-01-01 00:45:07 [109.123.237.156][-][rlgneqdt8gd72dum4047emnoje][info][application] $_GET = [
+    'r' => 'site/login/wp2/wp-includes/wlwmanifest.xml'
+]
+
+$_COOKIE = [
+    'advanced-backend' => 'rlgneqdt8gd72dum4047emnoje'
+    '_csrf-backend' => 'f0a1a6daa954a7debb8f0fee2ce02386cb0e1530bcefca5b9a7565bf8c663ce6a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"2_kiTBRdUIvXcYVzL-UJJVHnd8r4wx_f\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2flogin/wp2/wp-includes/wlwmanifest.xml'
+    'QUERY_STRING' => 'r=site%2flogin/wp2/wp-includes/wlwmanifest.xml'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '63304'
+    'SCRIPT_FILENAME' => '//var/www/SPP/backend/web/index.php'
+    'SERVER_ADMIN' => '[no address given]'
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'REMOTE_ADDR' => '109.123.237.156'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.9.9'
+    'SERVER_NAME' => 'sii.valladolid.tecnm.mx'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at sii.valladolid.tecnm.mx Port 80</address>
+'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_COOKIE' => 'advanced-backend=rlgneqdt8gd72dum4047emnoje; _csrf-backend=f0a1a6daa954a7debb8f0fee2ce02386cb0e1530bcefca5b9a7565bf8c663ce6a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%222_kiTBRdUIvXcYVzL-UJJVHnd8r4wx_f%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_KEEP_ALIVE' => '300'
+    'HTTP_HOST' => 'sii.valladolid.tecnm.mx'
+    'proxy-nokeepalive' => '1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1672533907.4192
+    'REQUEST_TIME' => 1672533907
+]
+2023-01-01 00:45:07 [109.123.237.156][-][rlgneqdt8gd72dum4047emnoje][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/login/site/wp-includes/wlwmanifest.xml". in /var/www/SPP/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#1 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#2 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Página no encontrada. in /var/www/SPP/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#1 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2023-01-01 00:45:07 [109.123.237.156][-][rlgneqdt8gd72dum4047emnoje][info][application] $_GET = [
+    'r' => 'site/login/site/wp-includes/wlwmanifest.xml'
+]
+
+$_COOKIE = [
+    'advanced-backend' => 'rlgneqdt8gd72dum4047emnoje'
+    '_csrf-backend' => 'f0a1a6daa954a7debb8f0fee2ce02386cb0e1530bcefca5b9a7565bf8c663ce6a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"2_kiTBRdUIvXcYVzL-UJJVHnd8r4wx_f\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2flogin/site/wp-includes/wlwmanifest.xml'
+    'QUERY_STRING' => 'r=site%2flogin/site/wp-includes/wlwmanifest.xml'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '63304'
+    'SCRIPT_FILENAME' => '//var/www/SPP/backend/web/index.php'
+    'SERVER_ADMIN' => '[no address given]'
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'REMOTE_ADDR' => '109.123.237.156'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.9.9'
+    'SERVER_NAME' => 'sii.valladolid.tecnm.mx'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at sii.valladolid.tecnm.mx Port 80</address>
+'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_COOKIE' => 'advanced-backend=rlgneqdt8gd72dum4047emnoje; _csrf-backend=f0a1a6daa954a7debb8f0fee2ce02386cb0e1530bcefca5b9a7565bf8c663ce6a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%222_kiTBRdUIvXcYVzL-UJJVHnd8r4wx_f%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_KEEP_ALIVE' => '300'
+    'HTTP_HOST' => 'sii.valladolid.tecnm.mx'
+    'proxy-nokeepalive' => '1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1672533907.8233
+    'REQUEST_TIME' => 1672533907
+]
+2023-01-01 00:45:08 [109.123.237.156][-][rlgneqdt8gd72dum4047emnoje][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/login/cms/wp-includes/wlwmanifest.xml". in /var/www/SPP/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#1 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#2 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Página no encontrada. in /var/www/SPP/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#1 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2023-01-01 00:45:08 [109.123.237.156][-][rlgneqdt8gd72dum4047emnoje][info][application] $_GET = [
+    'r' => 'site/login/cms/wp-includes/wlwmanifest.xml'
+]
+
+$_COOKIE = [
+    'advanced-backend' => 'rlgneqdt8gd72dum4047emnoje'
+    '_csrf-backend' => 'f0a1a6daa954a7debb8f0fee2ce02386cb0e1530bcefca5b9a7565bf8c663ce6a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"2_kiTBRdUIvXcYVzL-UJJVHnd8r4wx_f\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2flogin/cms/wp-includes/wlwmanifest.xml'
+    'QUERY_STRING' => 'r=site%2flogin/cms/wp-includes/wlwmanifest.xml'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '63304'
+    'SCRIPT_FILENAME' => '//var/www/SPP/backend/web/index.php'
+    'SERVER_ADMIN' => '[no address given]'
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'REMOTE_ADDR' => '109.123.237.156'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.9.9'
+    'SERVER_NAME' => 'sii.valladolid.tecnm.mx'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at sii.valladolid.tecnm.mx Port 80</address>
+'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_COOKIE' => 'advanced-backend=rlgneqdt8gd72dum4047emnoje; _csrf-backend=f0a1a6daa954a7debb8f0fee2ce02386cb0e1530bcefca5b9a7565bf8c663ce6a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%222_kiTBRdUIvXcYVzL-UJJVHnd8r4wx_f%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_KEEP_ALIVE' => '300'
+    'HTTP_HOST' => 'sii.valladolid.tecnm.mx'
+    'proxy-nokeepalive' => '1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1672533908.2644
+    'REQUEST_TIME' => 1672533908
+]
+2023-01-01 00:45:08 [109.123.237.156][-][rlgneqdt8gd72dum4047emnoje][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/login/sito/wp-includes/wlwmanifest.xml". in /var/www/SPP/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#1 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#2 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Página no encontrada. in /var/www/SPP/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#1 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2023-01-01 00:45:08 [109.123.237.156][-][rlgneqdt8gd72dum4047emnoje][info][application] $_GET = [
+    'r' => 'site/login/sito/wp-includes/wlwmanifest.xml'
+]
+
+$_COOKIE = [
+    'advanced-backend' => 'rlgneqdt8gd72dum4047emnoje'
+    '_csrf-backend' => 'f0a1a6daa954a7debb8f0fee2ce02386cb0e1530bcefca5b9a7565bf8c663ce6a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"2_kiTBRdUIvXcYVzL-UJJVHnd8r4wx_f\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2flogin/sito/wp-includes/wlwmanifest.xml'
+    'QUERY_STRING' => 'r=site%2flogin/sito/wp-includes/wlwmanifest.xml'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '63304'
+    'SCRIPT_FILENAME' => '//var/www/SPP/backend/web/index.php'
+    'SERVER_ADMIN' => '[no address given]'
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'REMOTE_ADDR' => '109.123.237.156'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.9.9'
+    'SERVER_NAME' => 'sii.valladolid.tecnm.mx'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at sii.valladolid.tecnm.mx Port 80</address>
+'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
+    'HTTP_COOKIE' => 'advanced-backend=rlgneqdt8gd72dum4047emnoje; _csrf-backend=f0a1a6daa954a7debb8f0fee2ce02386cb0e1530bcefca5b9a7565bf8c663ce6a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%222_kiTBRdUIvXcYVzL-UJJVHnd8r4wx_f%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_KEEP_ALIVE' => '300'
+    'HTTP_HOST' => 'sii.valladolid.tecnm.mx'
+    'proxy-nokeepalive' => '1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1672533908.734
+    'REQUEST_TIME' => 1672533908
+]
+2023-01-04 16:12:21 [192.168.1.50][2][d6pva8i4c3p19kogmsekfv2jji][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "valorescperiodicidad/index". in /var/www/SPP/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#1 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#2 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Página no encontrada. in /var/www/SPP/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/SPP/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest()
+#1 /var/www/SPP/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2023-01-04 16:12:21 [192.168.1.50][2][d6pva8i4c3p19kogmsekfv2jji][info][application] $_GET = [
+    'r' => 'valorescperiodicidad/index'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.776496298.1607646363'
+    '_ga_74JN7XH28D' => 'GS1.1.1644919639.5.0.1644919639.0'
+    '_csrf-backend' => 'be1afca946ba10190842ddfd45633724f723c0ccc6ce9a9895604a5b6a3fdd89a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"YMbkZx4-lFOq8ON1l0LPBwGo5uZgyOmF\";}'
+    'advanced-backend' => 'd6pva8i4c3p19kogmsekfv2jji'
+    '_identity-backend' => 'a7a506c8d76c731e1177b5ea6725fe2bfa71bce3638400720d004bacfe7e3bf0a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"PY29j0lzibL_jN6UBN5UVfksKRoQpg4O\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/index.php'
+    '__id' => 2
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=valorescperiodicidad%2Findex'
+    'QUERY_STRING' => 'r=valorescperiodicidad%2Findex'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '52107'
+    'SCRIPT_FILENAME' => '//var/www/SPP/backend/web/index.php'
+    'SERVER_ADMIN' => '[no address given]'
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => '/var/www/SPP/backend/web'
+    'REMOTE_ADDR' => '192.168.1.50'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.9.9'
+    'SERVER_NAME' => 'sii.valladolid.tecnm.mx'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at sii.valladolid.tecnm.mx Port 80</address>
+'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'HTTP_COOKIE' => '_ga=GA1.1.776496298.1607646363; _ga_74JN7XH28D=GS1.1.1644919639.5.0.1644919639.0; _csrf-backend=be1afca946ba10190842ddfd45633724f723c0ccc6ce9a9895604a5b6a3fdd89a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22YMbkZx4-lFOq8ON1l0LPBwGo5uZgyOmF%22%3B%7D; advanced-backend=d6pva8i4c3p19kogmsekfv2jji; _identity-backend=a7a506c8d76c731e1177b5ea6725fe2bfa71bce3638400720d004bacfe7e3bf0a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22PY29j0lzibL_jN6UBN5UVfksKRoQpg4O%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'sii.valladolid.tecnm.mx'
+    'proxy-nokeepalive' => '1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1672848741.8452
+    'REQUEST_TIME' => 1672848741
+]
