@@ -45,10 +45,12 @@ border-radius: 7px;
     <tr>
     <td> <?= $form->field($model, 'Programa')->textInput(['maxlength' => true]) ?></td>
     </table>
+
     <table>
     <tr>
     <td> <?= $form->field($model, 'PeriodoEvaluacion')->textInput() ?></td>
     </table>
+    
     <table>
     <tr>
     <td> <?= $form->field($model, 'nombre')->textInput(['maxlength' => true]) ?></td>
