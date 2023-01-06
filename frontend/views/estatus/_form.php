@@ -43,6 +43,14 @@ border-radius: 7px;
     <?php $form = ActiveForm::begin(); ?>
     <table>
     <tr>
+    <td> <?= $form->field($model, 'Programa')->textInput(['maxlength' => true]) ?></td>
+    </table>
+    <table>
+    <tr>
+    <td> <?= $form->field($model, 'PeriodoEvaluacion')->textInput() ?></td>
+    </table>
+    <table>
+    <tr>
     <td> <?= $form->field($model, 'nombre')->textInput(['maxlength' => true]) ?></td>
     </table>
 
