@@ -78,6 +78,7 @@ AppAsset::register($this);
                    'items' => [['label' => 'Crear', 'items' => [['label' => 'Roles', 'url' => ['roles/index']],
                    ['label' => 'Usuarios', 'url' => ['usuariosindicadores/index']],
                    ['label' => 'Programas', 'url' => ['programashasindicadores/index']],
+                   ['label' => 'Nuevo Usuario', 'url' => ['/site/signup']],
                    ]],
                    ]
                ]);

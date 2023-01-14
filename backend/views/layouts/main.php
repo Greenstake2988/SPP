@@ -50,6 +50,7 @@ AppAsset::register($this);
         
     ];
     if (Yii::$app->user->isGuest) {
+        $menuItems[] = ['label' => 'Registrarse', 'url' => ['/site/signup']];
 
     } else{
         $menuItems[] = ['label' => 'Inicio','url' => ['site/index']];

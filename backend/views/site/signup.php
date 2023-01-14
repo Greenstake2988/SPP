@@ -36,10 +36,6 @@ border-radius: 10px 10px 0px 0px;
     <strong><div class="card-header" style="background-color: #BC955C; color: #FFFFFF; height:50px; text-align:center">
 <div class="site-signup">
     <h1><?= Html::encode($this->title) ?></h1>
-
-    <p>Por favor llene los siguientes campos para registrarse:</p>
-
-    <div class="row">
         <div class="col-lg-5"style="color:black;text-align:center">
         <h3 class="mb-0 fw-bold text-center py-1"></h3></div></strong>
         <br>
@@ -47,6 +43,7 @@ border-radius: 10px 10px 0px 0px;
         <div class="row" style="text-align:center; width: 50%; margin:0 auto;">
         <div class="col-lg-5" style="color:black;text-align:center; width: 100%; margin:0 auto;">
             <?php $form = ActiveForm::begin(['id' => 'form-signup']); ?>
+            
 
                 <?= $form->field($model, 'username')->textInput(['autofocus' => true]) ?>
 
@@ -55,7 +52,7 @@ border-radius: 10px 10px 0px 0px;
                 <?= $form->field($model, 'password')->passwordInput() ?>
 
                 <div class="form-group">
-                    <?= Html::submitButton('Signup', ['class' => 'btn btn-primary', 'name' => 'signup-button']) ?>
+                    <?= Html::submitButton('Registrarme', ['class' => 'btn btn-primary', 'name' => 'signup-button']) ?>
                 </div>
 
             <?php ActiveForm::end(); ?>
