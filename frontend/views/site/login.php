@@ -10,9 +10,16 @@ use yii\bootstrap\ActiveForm;
 $this->title = 'Iniciar sesión';
 ?>
     <style>
+       .navbar-default .btn-link {
+    color: #FFFFFF;
+    }
     .navbar-default .navbar-brand {
     color: #FFFFFF;
     }
+    .navbar-default .navbar-nav > li > a {
+        color: #FFFFFF;
+        }
+    
     </style>
 <style>
 .wrap > .container {
