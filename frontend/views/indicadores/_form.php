@@ -11,6 +11,10 @@ use yii\widgets\ActiveForm;
 <div class="indicadores-form">
 
     <?php $form = ActiveForm::begin(); ?>
+    
+    <?= $form->field($model, 'Programa')->textInput(['maxlength' => true]) ?>
+
+    <?= $form->field($model, 'PeriodoEvaluacion')->textInput() ?>
 
     <?= $form->field($model, 'nombre')->textInput(['maxlength' => true]) ?>
 
