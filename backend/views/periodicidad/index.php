@@ -85,9 +85,7 @@ border-radius: 5px;
         <div class="col-lg-6"> </div>
       </div>
     </div>
-    <p>
-        <?= Html::a('Finalizar Evaluación', ['indicadores/index','idprogramas'=>"8"], ['class' => 'btn btn-success']) ?>
-    </p>
+    <h4 style="font-size:24px; text-align:center; font-size:medium"><strong>Nomenclatura del archivo: Numero del Indicador-Nombre del archivo. Ejemplo:Actividad 1.4.3-Constancia de Alumnos.</strong></h4>
     </div>
     </div>
    

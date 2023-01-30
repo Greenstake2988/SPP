@@ -55,6 +55,8 @@ AppAsset::register($this);
     } else{
         $menuItems[] = ['label' => 'Inicio','url' => ['site/index']];
         $menuItems[] = ['label' => 'Programas', 'url' => ['programas/index']];
+        $menuItems[] = ['label' => 'Medio Verificación', 'url' => ['periodicidad/index']];
+        $menuItems[] = ['label' => 'Ayuda', 'url' => ['estatus/index']];
         $menuItems[] = '<li>'
             . Html::beginForm(['/site/logout'], 'post')
             . Html::submitButton(
